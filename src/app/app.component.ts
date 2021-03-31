@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  static url = 'http://localhost:3000';
+  static url = 'http://localhost:4200';
   title = 'test-angular';
 }
