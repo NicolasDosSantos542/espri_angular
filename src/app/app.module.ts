@@ -25,6 +25,7 @@ import { MaterielComponent } from './components/main/main-right/magie-et-materie
 import { FooterComponent } from './components/footer/footer.component';
 import { KeywordsComponent } from './components/footer/keywords/keywords.component';
 import { MaximComponent } from './components/footer/maxim/maxim.component';
+import { InputValueComponent } from './components/input-value/input-value.component';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { MaximComponent } from './components/footer/maxim/maxim.component';
     FooterComponent,
     KeywordsComponent,
     MaximComponent,
+    InputValueComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),

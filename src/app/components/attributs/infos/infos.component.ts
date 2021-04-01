@@ -6,14 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./infos.component.css']
 })
 export class InfosComponent implements OnInit {
-  public iconePlus =  'assets/plus.png';
-  auClic = '(click)=\'clicSurBouton()\'';
+  // auClic = '(click)=\'clicSurBouton()\'';
 
-  clicSurBouton(){
+  values = ['Lignée', 'Nom', 'Age'];
 
-  }
-
-      constructor() { }
+  constructor() { }
 
   ngOnInit(): void {
   }
