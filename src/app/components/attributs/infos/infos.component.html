@@ -1,14 +1,4 @@
-<div class="header-content"><p>Nom: </p>
-    <img alt="icone plus" (click)='clicSurBouton()' class="icone plus" src="../../{{iconePlus}} "/>
-    <p class="info-perso"></p>
-</div>
-<div class="header-content"><p>Lignée:</p>
-    <p><img alt="icone plus" class="icone plus"src="../../{{iconePlus}} "></p>
-    <p class="info-perso"></p>
+<div class="header-content" *ngFor="let value of idValues">
 
-</div>
-<div class="header-content"><p>Age: </p>
-    <img alt="icone plus" class="icone plus" src="../../{{iconePlus}} ">
-    <p class="info-perso"></p>
-
+    <app-input-value  [value]="value"></app-input-value>
 </div>
