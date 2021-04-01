@@ -5,7 +5,7 @@
     <p><label *ngIf="isInEdition">
         <input type="text" (change)="validate(str)" [(ngModel)]="str">
     </label></p>
-    <ul class="info-perso" *ngIf="!isInEdition">
+    <ul class="info-perso" >
 
         <li *ngFor="let listvalue of listValues ">{{listvalue}}</li>
     </ul>
