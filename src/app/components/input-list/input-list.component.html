@@ -1,13 +1,13 @@
-<div class="header-container"><p>{{value}}:<img alt="icone plus" *ngIf="!isInEdition" (click)="onClick()"
+<div ><p>{{value}}:<img alt="icone plus" *ngIf="!isInEdition" (click)="onClick()"
                                                 class="icone plus"
                                                 src="../../{{iconePlus}} "/>
 </p>
     <p><label *ngIf="isInEdition">
-        <input type="text" (change)="validate(str)" [(ngModel)]="str">
+        <input type="text" (keyup.enter)="validate(str)" [(ngModel)]="str" autofocus>
     </label></p>
-    <ul class="info-perso" >
+    <ul  >
 
-        <li *ngFor="let listvalue of listValues ">{{listvalue}}</li>
+        <li class="list" *ngFor="let listvalue of listValues "> | {{listvalue}}</li>
     </ul>
 
 

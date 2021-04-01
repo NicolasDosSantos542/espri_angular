@@ -8,6 +8,12 @@
     font-weight: bold;
     src: url('/assets/font/Merienda-Bold.ttf');
 }
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 body {
     font-family: "Merienda", serif;
@@ -61,18 +67,9 @@ p {
     width: 60%;
 }
 
-.liste {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 
-}
 
-.liste > li {
-    margin-right: 4px;
 
-}
 
 
 .main {
