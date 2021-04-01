@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="" />
+    <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/AppRoutingModule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AppRoutingModule.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/logo/logo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/logo/logo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,11 +29,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ESPRI_FdP" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +85,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617185485964</updated>
-      <workItem from="1617185487396" duration="1557000" />
+      <workItem from="1617185487396" duration="2739000" />
+      <workItem from="1617193466175" duration="10000" />
+      <workItem from="1617193498230" duration="463000" />
+      <workItem from="1617194829160" duration="5244000" />
+      <workItem from="1617262860794" duration="599000" />
     </task>
     <servers />
   </component>

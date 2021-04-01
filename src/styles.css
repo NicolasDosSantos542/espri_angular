@@ -1,1 +1,286 @@
-/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Merienda";
+    src: url('assets/font/Merienda-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Merienda";
+    font-weight: bold;
+    src: url('/assets/font/Merienda-Bold.ttf');
+}
+
+body{
+    font-family: "Merienda", serif;
+    font-style: normal;
+    line-height: 1;
+}
+p{
+    margin-top:5px;
+    margin-bottom: 0;
+}
+
+#attributs {
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+;
+
+
+}
+
+#logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.header-content{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.icone{
+    height: 0.6em;
+    width: auto;
+    margin-top: 10px;
+
+}
+.info-perso{
+    text-align: center;
+    width: 60%;
+}
+.liste{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.liste >li{
+    margin-right: 4px;
+
+}
+
+
+.main {
+    padding-top: 10px;
+}
+
+/*-------------------------PARTIE DE GAUCHE------------------------------------------------*/
+
+#tables h3{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+th, td {
+    border: 1px dotted black;
+    height: 1em;
+}
+input[type=text]{
+    border: none;
+    width: 100px;
+}
+input[type=text]:focus{
+    border:1px solid white;
+}
+#ame{
+    display: flex;
+    justify-content: space-around;
+}
+#ame > div {
+    width: 50%;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#ame div div {
+    width: 100%;
+}
+
+#essence{
+    border: 4px solid #d9d9d9;
+
+}
+.ame-content{
+    margin:0 !important;
+    padding:0  !important;
+    display: flex;
+}
+
+.harmonie {
+    width: 70%
+}
+
+#rupture{
+    border: 4px solid #5e266a;
+}
+
+
+
+/*---------------------------PARTIE DE DROITE-------------------------------------------------*/
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(40px, auto);
+}
+
+.espace-tables {  /*correspond au carde de la parties "tables*/
+    grid-column: 1/ span 8;
+    grid-row: 1 / span 8;
+
+}
+.devotion-text {
+    grid-column: 13 / span 2;
+    grid-row: 3 /span 1;
+    text-align: right;
+}
+.devotion-text > p > span{
+    vertical-align: middle;
+}
+.saison{
+    border-radius: 45px;
+    margin: -5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.saison-pastille{
+    min-height: 80px;
+    max-height:80px;
+    max-width: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    position: relative;
+    bottom: 2px;}
+
+.saison-texte{
+    font-size: 0.8em;
+    text-align: center;
+}
+.saison-score{
+    margin: 25px;
+    font-size: 3em;
+    position: relative;
+    bottom: 10px;
+}
+.nymphe{
+    border-radius: 50%;
+    border: none;
+}
+#hiver {
+    grid-column: 10 / span 5;
+    grid-row: 1 /span 2;
+    border: 3px solid #9a99ff;
+
+}
+
+#printemps {
+    grid-row: 1 /span 2;
+    grid-column: 16 /span 5;
+    border: 3px solid #a9d18e;
+
+}
+
+#automne {
+    grid-column: 10 / span 5;
+    grid-row: 4 / span 2;
+    border: 3px solid #ff0000;
+
+}
+
+#ete {
+    grid-column: 16 /span 5;
+    grid-row: 4 / span 2;
+    border: 3px solid #ffd966;
+}
+
+#temps {
+    grid-column: 15/span 1;
+    grid-row: 3 / span 1;
+    border: double 4px;
+
+}
+
+.seven {
+    grid-column: 10 /span 12;
+    grid-row: 7;
+    margin-left: 15px;
+}
+
+
+.magie-materiel {
+    display: flex;
+
+}
+
+.magie-materiel > div {
+    width: 50%;
+    margin: 5px;
+}
+
+#temps {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    text-align: center;
+}
+#temps.p{
+    vertical-align: middle;
+
+}
+
+#footer{
+    height: 100%;
+}
+#maxime
+{
+    background-color: #c29999;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    min-height: 2em;
+    box-shadow: 0 0 0.3em 0.3em white inset;
+    padding: 0.5em;
+}
+.keyword{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#keyword-container{
+    border: 3px dotted #ff1313;
+    border-radius: 45px;
+    width: 100%;
+
+}
+#keywords-de-saison{
+    display: flex;
+}
+#token-left
+{
+    position: relative;
+    left: 70px  ;
+
+}
+#token-right{
+    position: relative;
+
+    right: 70px;
+
+}
+
+
+
+
