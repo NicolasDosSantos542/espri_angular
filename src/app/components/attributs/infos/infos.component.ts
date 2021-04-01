@@ -1,18 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-infos',
-  templateUrl: './infos.component.html',
-  styleUrls: ['./infos.component.css']
+    selector: 'app-infos',
+    templateUrl: './infos.component.html',
+    styleUrls: ['./infos.component.css']
 })
 export class InfosComponent implements OnInit {
-  // auClic = '(click)=\'clicSurBouton()\'';
+    idValues = ['Nom', 'Lignée', 'Age'];
 
-  values = ['Lignée', 'Nom', 'Age'];
+    constructor() {
+    }
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
 
 }

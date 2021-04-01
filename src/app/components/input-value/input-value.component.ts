@@ -7,17 +7,15 @@ import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 })
 export class InputValueComponent implements OnInit {
 
-  @ViewChild('myInput') myInputField: ElementRef;
   public iconePlus =  'assets/plus.png';
 
   @Input() value;
   isInEdition = false;
   str = '';
+  islist: false;
 
   onClick(){
     this.isInEdition = true;
-    this.myInputField.nativeElement.focus();
-    console.log(this.isInEdition);
   }
 
   validate(){

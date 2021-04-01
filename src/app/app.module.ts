@@ -26,6 +26,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { KeywordsComponent } from './components/footer/keywords/keywords.component';
 import { MaximComponent } from './components/footer/maxim/maxim.component';
 import { InputValueComponent } from './components/input-value/input-value.component';
+import { InputListComponent } from './components/input-list/input-list.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { InputValueComponent } from './components/input-value/input-value.compon
     KeywordsComponent,
     MaximComponent,
     InputValueComponent,
+    InputListComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),

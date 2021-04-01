@@ -1,6 +1,10 @@
-<p>{{value}}: </p>
-<img alt="icone plus" *ngIf="!isInEdition" (click)="onClick()" class="icone plus" src="../../{{iconePlus}} "/>
+<div class="header-container"><p>{{value}}:<img alt="icone plus" *ngIf="!isInEdition" (click)="onClick()" class="icone plus"
+                    src="../../{{iconePlus}} "/>
+</p>
 <p class="info-perso" *ngIf="!isInEdition">{{str}}</p>
-<label *ngIf="isInEdition">
-    <input #myInput type="text" (change)="validate()" [value]="'toto'" [(ngModel)]="str">
+<p><label *ngIf="isInEdition">
+    <input #myInput type="text" (change)="validate()" [value]="" [(ngModel)]="str">
 </label>
+</p>
+</div>
+
