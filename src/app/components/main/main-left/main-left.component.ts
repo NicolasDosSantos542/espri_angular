@@ -1,18 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-main-left',
-  templateUrl: './main-left.component.html',
-  styleUrls: ['./main-left.component.css']
+    selector: 'app-main-left',
+    templateUrl: './main-left.component.html',
+    styleUrls: ['./main-left.component.css']
 })
 export class MainLeftComponent implements OnInit {
-    soulArray = {Essence : 'Prévoyance', Anatheme: 'Versatilité'};
-  constructor() { }
+    constructor() {
+    }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
 
-  onClick(value) {
-    console.log(value);
-  }
 }
