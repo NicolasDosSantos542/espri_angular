@@ -6,10 +6,23 @@
         <th>Nature</th>
         <th>Résonnance</th>
     </tr>
-    <tr *ngFor="let row of fakeArray">
-        <td>Robert le perso de michel</td>
-        <td>amicale teintée d'humour et de competition</td>
-        <td>3</td>
+    <tr>
+        <td><app-input-value class="relation-input"></app-input-value></td>
+        <td><app-input-value class="relation-input"></app-input-value></td>
+        <td><app-input-value class="relation-input"></app-input-value></td>
     </tr>
+
+    <tr  *ngFor="let a of fakeArray">
+        <td><app-input-value class="relation-input"></app-input-value></td>
+        <td><app-input-value class="relation-input"></app-input-value></td>
+        <td><app-input-value class="relation-input"></app-input-value></td>
+    </tr>
+<div id="table-control">
+    <p (click)="onPlusClick()">
+        plus
+    </p>
+    <p (click)="onMinusClick()">
+        moins
+    </p></div>
 
 </table>

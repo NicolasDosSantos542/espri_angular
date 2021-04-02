@@ -1,15 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-relations',
-  templateUrl: './relations.component.html',
-  styleUrls: ['./relations.component.css']
+    selector: 'app-relations',
+    templateUrl: './relations.component.html',
+    styleUrls: ['./relations.component.css']
 })
 export class RelationsComponent implements OnInit {
-  fakeArray = new Array(12);
-  constructor() { }
+    numberOfRows = 0;
+    fakeArray = new Array(this.numberOfRows);
 
-  ngOnInit(): void {
-  }
+    constructor() {
+    }
 
+    ngOnInit(): void {
+    }
+
+    onPlusClick() {
+        /*this.isEditable = true;*/
+        this.fakeArray = new Array(this.numberOfRows );
+        this.numberOfRows += 1;
+    }
+
+    onMinusClick() {
+        this.fakeArray = new Array(this.numberOfRows );
+        this.numberOfRows -= 1;
+    }
 }

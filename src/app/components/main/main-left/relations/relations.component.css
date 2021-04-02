@@ -1,0 +1,14 @@
+.relation-input{
+width: 120px !important;
+  border: 0 solid ;
+
+
+
+}
+#relations td {
+    padding: 0;
+}
+#table-control{
+    display: flex;
+    justify-content: space-between;
+}
