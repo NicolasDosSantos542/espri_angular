@@ -10,12 +10,14 @@ export class SoulComponent implements OnInit {
     { typeTitle: 'essence',
     type: 'Prévoyance',
     typeScore: 'harmonie'},
-    { typeTitle: 'anathème',
+    { typeTitle: 'anatheme',
       type: 'Versatilité',
       typeScore: 'Anathème'}
   ];
 
-  constructor() { }
+  constructor() {
+    console.log(this.soulArray[0].type);
+  }
 
   onClick(value) {
     console.log(value);

@@ -2,23 +2,14 @@
 <div id="ame">
 
 
-    <div id="essence">
-        <p>Essence : Prévoyance</p>
+    <div  *ngFor="let array of soulArray" id="{{array.typeTitle}}">
+        <p>{{array.typeTitle}} : {{array.type}}</p>
         <div class="ame-content">
 
-            <p class="harmonie" (click)="onClick('tata') " >Harmonie : <img alt="icone plus" class="icone plus" src="assets/plus.png"> </p>
+            <p class="harmonie"  >{{array.typeScore}} : </p>
 
-            <p class="info-perso"></p>
+            <input type="text"/>
         </div>
     </div>
-    <div id="rupture">
-        <p>Anathème : Versatilité</p>
-        <div class="ame-content"><p class="harmonie" (click)="onClick('tata')">Anathème : <img alt="icone plus"
-                                                                                               class="icone plus"
-                                                                                               src="assets/plus.png">
-        </p>
-
-            <p class="info-perso"></p>
-        </div>
-    </div>
+   
 </div>
