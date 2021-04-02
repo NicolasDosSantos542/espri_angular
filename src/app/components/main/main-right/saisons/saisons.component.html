@@ -10,7 +10,7 @@
         <p><strong>{{value.name}}</strong></p>
         <p>{{value.keywords}}</p>
     </div>
-    <div *ngIf="value.isOnLeft" class="saison-pastille  "><p (click)="onSeasonClick(value)" class=saison-score>X</p></div>
+    <input type="text" *ngIf="value.isOnLeft" class="saison-pastille saison-score " [(ngModel)]="value.score" [value]="value.score">
     <div *ngIf="!value.isOnLeft" class="saison-pastille  nymphe">
         <img alt="nymphe {{value.name}}" class="nymphe" height="80px"
              src="./../../../../assets/nymphe-{{value.id}}-small.png" width="80px">
