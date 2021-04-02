@@ -192,28 +192,28 @@ th, td {
     border: none;
 }
 
-#hiver {
+#winter {
     grid-column: 2 / span 10;
     grid-row: 1 /span 2;
     border: 3px solid #9a99ff;
 
 }
 
-#printemps {
+#spring {
     grid-column: 13 /span 10;
     grid-row: 1 /span 2;
     border: 3px solid #a9d18e;
 
 }
 
-#automne {
+#autumn {
     grid-column: 2 / span 10;
     grid-row: 4 / span 2;
     border: 3px solid #ff0000;
 
 }
 
-#ete {
+#summer {
     grid-column: 13 /span 10;
     grid-row: 4 / span 2;
     border: 3px solid #ffd966;
