@@ -7,23 +7,17 @@ import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 })
 export class InputValueComponent implements OnInit {
 
-    public iconePlus = 'assets/plus.png';
 
-    @Input() value;
+
+
     isInEdition = false;
     str = '';
     islist: false;
 
-    onClick() {
-        this.isInEdition = true;
-    }
+
 
     validate() {
-        if (this.isInEdition === false) {
-            this.isInEdition = true;
-        } else {
-            this.isInEdition = false;
-        }
+        this.isInEdition = this.isInEdition === false;
         console.log(this.isInEdition);
     }
 

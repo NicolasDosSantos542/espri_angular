@@ -1,15 +1,9 @@
-<div ><p>{{value}}:<img alt="icone plus" *ngIf="!isInEdition" (click)="onClick()"
-                                                class="icone plus"
-                                                src="../../{{iconePlus}} "/>
-</p>
-    <p><label *ngIf="isInEdition">
-        <input type="text" (keyup.enter)="validate(str)" [(ngModel)]="str" autofocus>
-    </label></p>
-    <ul  >
-
-        <li class="list" *ngFor="let listvalue of listValues "> | {{listvalue}}</li>
-    </ul>
+<p>{{value}} : <label>
+    <input (change)="validate(str)" [(ngModel)]="str" type="text"/>
+</label></p>
 
 
-</div>
+<p *ngFor="let value of listValues "> | {{value}}</p>
+
+
 

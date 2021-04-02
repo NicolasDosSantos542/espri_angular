@@ -21,20 +21,22 @@ body {
     line-height: 1;
 }
 
-p {
+/*p {
     margin-top: 5px;
     margin-bottom: 0;
-}
+}*/
 
 #attributs {
     display: flex;
     height: 150px;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 
 
 }
-
+input{
+    border : none !important;
+    background-color: #f2f8fa;
+}
 #logo {
     display: block;
     margin-right: auto;
