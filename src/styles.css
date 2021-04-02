@@ -95,12 +95,6 @@ th, td {
     height: 1em;
 }
 
-input[type=text] {
-    border: dotted 1px;
-    border-radius: 5px;
-    width: 100px;
-    height: 1.2em;
-}
 
 #ame {
     display: flex;
