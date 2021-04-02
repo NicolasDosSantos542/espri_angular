@@ -17,12 +17,16 @@ export class RelationsComponent implements OnInit {
 
     onPlusClick() {
         /*this.isEditable = true;*/
-        this.fakeArray = new Array(this.numberOfRows );
         this.numberOfRows += 1;
+        this.fakeArray = Array(this.numberOfRows);
+
     }
 
     onMinusClick() {
-        this.fakeArray = new Array(this.numberOfRows );
         this.numberOfRows -= 1;
+        this.fakeArray = Array(this.numberOfRows);
+        if (this.numberOfRows < 0) {
+            this.numberOfRows = 0;
+        }
     }
 }

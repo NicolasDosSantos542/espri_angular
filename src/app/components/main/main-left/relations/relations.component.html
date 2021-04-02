@@ -7,22 +7,37 @@
         <th>Résonnance</th>
     </tr>
     <tr>
-        <td><app-input-value class="relation-input"></app-input-value></td>
-        <td><app-input-value class="relation-input"></app-input-value></td>
-        <td><app-input-value class="relation-input"></app-input-value></td>
+        <td>
+            <app-input-value class="relation-input"></app-input-value>
+        </td>
+        <td>
+            <app-input-value class="relation-input"></app-input-value>
+        </td>
+        <td>
+            <app-input-value class="relation-input"></app-input-value>
+        </td>
     </tr>
 
-    <tr  *ngFor="let a of fakeArray">
-        <td><app-input-value class="relation-input"></app-input-value></td>
-        <td><app-input-value class="relation-input"></app-input-value></td>
-        <td><app-input-value class="relation-input"></app-input-value></td>
+    <tr *ngFor="let a of fakeArray">
+        <td>
+            <app-input-value class="relation-input"></app-input-value>
+        </td>
+        <td>
+            <app-input-value class="relation-input"></app-input-value>
+        </td>
+        <td>
+            <app-input-value class="relation-input"></app-input-value>
+        </td>
     </tr>
-<div id="table-control">
-    <p (click)="onPlusClick()">
-        plus
-    </p>
-    <p (click)="onMinusClick()">
-        moins
-    </p></div>
+    <tr id="table-control">
+        <td (click)="onPlusClick()">
+            plus
+        </td>
+        <td></td>
+        <td (click)="onMinusClick()">
+            moins
+        </td>
+
+
 
 </table>
