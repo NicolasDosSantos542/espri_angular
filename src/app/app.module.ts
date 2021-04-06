@@ -23,10 +23,10 @@ import { MagieEtMaterielComponent } from './components/main/main-right/magie-et-
 import { MagieComponent } from './components/main/main-right/magie-et-materiel/magie/magie.component';
 import { MaterielComponent } from './components/main/main-right/magie-et-materiel/materiel/materiel.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { KeywordsComponent } from './components/footer/keywords/keywords.component';
-import { MaximComponent } from './components/footer/maxim/maxim.component';
 import { InputValueComponent } from './components/input-value/input-value.component';
 import { InputListComponent } from './components/input-list/input-list.component';
+import { InputCircleComponent } from './components/input-circle/input-circle.component';
+import { SeasonDescribeComponent } from './components/footer/season-describe/season-describe.component';
 
 
 @NgModule({
@@ -49,10 +49,10 @@ import { InputListComponent } from './components/input-list/input-list.component
     MagieComponent,
     MaterielComponent,
     FooterComponent,
-    KeywordsComponent,
-    MaximComponent,
     InputValueComponent,
     InputListComponent,
+    InputCircleComponent,
+    SeasonDescribeComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),

@@ -181,10 +181,11 @@ th, td {
 }
 
 .saison-score {
-    margin: 25px;
+    margin: 10px;
     font-size: 3em;
     position: relative;
     bottom: 10px;
+    text-align: center;
 }
 
 .nymphe {
@@ -257,46 +258,6 @@ th, td {
 
 #footer {
     height: 100%;
-}
-
-#maxime {
-    background-color: #c29999;
-    color: white;
-    font-size: 0.7em;
-    text-align: center;
-    min-height: 2em;
-    box-shadow: 0 0 0.3em 0.3em white inset;
-    padding: 0.5em;
-}
-
-.keyword {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#keyword-container {
-    border: 3px dotted #ff1313;
-    border-radius: 45px;
-    width: 100%;
-
-}
-
-#keywords-de-saison {
-    display: flex;
-}
-
-#token-left {
-    position: relative;
-    left: 70px;
-
-}
-
-#token-right {
-    position: relative;
-
-    right: 70px;
-
 }
 
 

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KeywordsComponent } from './keywords.component';
+import { InputCircleComponent } from './input-circle.component';
 
-describe('KeywordsComponent', () => {
-  let component: KeywordsComponent;
-  let fixture: ComponentFixture<KeywordsComponent>;
+describe('InputCircleComponent', () => {
+  let component: InputCircleComponent;
+  let fixture: ComponentFixture<InputCircleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ KeywordsComponent ]
+      declarations: [ InputCircleComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KeywordsComponent);
+    fixture = TestBed.createComponent(InputCircleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

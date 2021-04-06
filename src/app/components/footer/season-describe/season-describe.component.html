@@ -1,0 +1,19 @@
+<div id="footer">
+    <p id="maxime-{{seasondescribe[0].id}}" >{{seasondescribe[0].maxim}}</p>
+
+    <div id="keywords-de-saison">
+        <img alt="token de saison" id="token-left" src="../../../../assets/{{seasondescribe[0].token}}" >
+        <div id="keyword-container-{{seasondescribe[0].id}}">
+
+            <ul class="keyword" >
+                <li *ngFor="let value of seasondescribe[0].keywords | slice:0:5">{{value}}</li>
+
+            </ul>
+            <ul class="keyword" >
+                <li *ngFor="let value of seasondescribe[0].keywords | slice:5:10">{{value}}</li>
+
+            </ul>
+        </div>
+        <img alt="token de saison" id="token-right" src="../../../../assets/{{seasondescribe[0].token}}">
+    </div>
+</div>
