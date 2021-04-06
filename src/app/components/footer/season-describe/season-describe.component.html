@@ -1,26 +1,19 @@
 <div id="footer">
-    <p id="maxime">Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon héraut. Par ce don, sois Gardien de ma
-        Saison Porte en ton âme ma Voix, mon savoir-faire. Prodigue-les au Monde, reforge son fer.</p>
+    <p id="maxime-{{seasondescribe[0].id}}" >{{seasondescribe[0].maxim}}</p>
 
     <div id="keywords-de-saison">
-        <img alt="token de saison" id="token-left" src="../../../../assets/Token_Automne_small.png" >
-        <div id="keyword-container">
+        <img alt="token de saison" id="token-left" src="../../../../assets/{{seasondescribe[0].token}}" >
+        <div id="keyword-container-{{seasondescribe[0].id}}">
 
-            <ul class="keyword">
-                <li>Résistance</li>
-                <li>Construire</li>
-                <li>Acquis</li>
-                <li>Préparer</li>
-                <li>Patience</li>
+            <ul class="keyword" >
+                <li *ngFor="let value of seasondescribe[0].keywords | slice:0:5">{{value}}</li>
+
             </ul>
-            <ul class="keyword">
-                <li>Gravité</li>
-                <li>Pragmatisme</li>
-                <li>Arrêter</li>
-                <li>Pierre</li>
-                <li>Conception</li>
+            <ul class="keyword" >
+                <li *ngFor="let value of seasondescribe[0].keywords | slice:5:10">{{value}}</li>
+
             </ul>
         </div>
-        <img alt="token de saison" id="token-right" src="../../../../assets/Token_Automne_small.png">
+        <img alt="token de saison" id="token-right" src="../../../../assets/{{seasondescribe[0].token}}">
     </div>
 </div>
