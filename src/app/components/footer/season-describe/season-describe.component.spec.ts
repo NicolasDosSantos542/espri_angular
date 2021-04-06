@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MaximComponent } from './maxim.component';
+import { SeasonDescribeComponent } from './season-describe.component';
 
-describe('MaximComponent', () => {
-  let component: MaximComponent;
-  let fixture: ComponentFixture<MaximComponent>;
+describe('SeasonDescribeComponent', () => {
+  let component: SeasonDescribeComponent;
+  let fixture: ComponentFixture<SeasonDescribeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MaximComponent ]
+      declarations: [ SeasonDescribeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MaximComponent);
+    fixture = TestBed.createComponent(SeasonDescribeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

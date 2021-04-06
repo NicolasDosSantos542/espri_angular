@@ -1,0 +1,97 @@
+
+#maxime-autumn {
+    background-color: #c29999;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    min-height: 2em;
+    box-shadow: 0 0 0.3em 0.3em white inset;
+    padding: 0.5em;
+}
+#maxime-summer {
+    background-color: #e0b216;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    min-height: 2em;
+    box-shadow: 0 0 0.3em 0.3em white inset;
+    padding: 0.5em;
+}
+#maxime-spring {
+    background-color: #33bb43;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    min-height: 2em;
+    box-shadow: 0 0 0.3em 0.3em white inset;
+    padding: 0.5em;
+}
+#maxime-winter {
+    background-color: #14a5bf;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    min-height: 2em;
+    box-shadow: 0 0 0.3em 0.3em white inset;
+    padding: 0.5em;
+}
+#maxime-time {
+     background-color: #6f6c67;
+     color: white;
+     font-size: 0.7em;
+     text-align: center;
+     min-height: 2em;
+     box-shadow: 0 0 0.3em 0.3em white inset;
+     padding: 0.5em;
+ }
+.keyword {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#keyword-container-autumn {
+    border: 3px dotted #ff1313;
+    border-radius: 45px;
+    width: 100%;
+
+}
+#keyword-container-summer {
+    border: 3px dotted #ffe013;
+    border-radius: 45px;
+    width: 100%;
+
+}
+#keyword-container-spring {
+    border: 3px dotted #33bb43;
+    border-radius: 45px;
+    width: 100%;
+
+}
+#keyword-container-winter {
+    border: 3px dotted #3380bb;
+    border-radius: 45px;
+    width: 100%;
+
+}#keyword-container-time {
+     border: 3px dotted #848282;
+     border-radius: 45px;
+     width: 100%;
+
+ }
+#keywords-de-saison {
+    display: flex;
+}
+
+#token-left {
+    position: relative;
+    left: 70px;
+
+}
+
+#token-right {
+    position: relative;
+
+    right: 70px;
+
+}
