@@ -1,0 +1,8 @@
+<div ><label>
+    <input class="saison-score saison-pastille" *ngIf="!isInEdition" (change)="validate()" [value]="coucou" [(ngModel)]="str" type="text"/>
+</label>
+
+<p class="saison-score saison-pastille " *ngIf="isInEdition" (click)="validate()">{{str}}</p>
+
+</div>
+
