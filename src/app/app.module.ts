@@ -20,8 +20,6 @@ import { HealthComponent } from './components/main/main-left/health/health.compo
 import { RelationsComponent } from './components/main/main-left/relations/relations.component';
 import { SaisonsComponent } from './components/main/main-right/saisons/saisons.component';
 import { MagieEtMaterielComponent } from './components/main/main-right/magie-et-materiel/magie-et-materiel.component';
-import { MagieComponent } from './components/main/main-right/magie-et-materiel/magie/magie.component';
-import { MaterielComponent } from './components/main/main-right/magie-et-materiel/materiel/materiel.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { InputValueComponent } from './components/input-value/input-value.component';
 import { InputListComponent } from './components/input-list/input-list.component';
@@ -29,7 +27,7 @@ import { InputCircleComponent } from './components/input-circle/input-circle.com
 import { SeasonDescribeComponent } from './components/footer/season-describe/season-describe.component';
 import { ClickOutsideModule } from 'ng-click-outside';
 import { SeasonChoiceComponent } from './components/season-choice/season-choice.component';
-import { Component, Input } from '@angular/core';
+import { InputLongTextComponent } from './components/input-long-text/input-long-text.component';
 
 @NgModule({
   declarations: [
@@ -48,14 +46,13 @@ import { Component, Input } from '@angular/core';
     RelationsComponent,
     SaisonsComponent,
     MagieEtMaterielComponent,
-    MagieComponent,
-    MaterielComponent,
     FooterComponent,
     InputValueComponent,
     InputListComponent,
     InputCircleComponent,
     SeasonDescribeComponent,
     SeasonChoiceComponent,
+    InputLongTextComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),

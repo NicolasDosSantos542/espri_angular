@@ -1,0 +1,8 @@
+
+<label>
+    <textarea *ngIf="!isInEdition" (keydown.control.enter)="validate()" [value]="" [(ngModel)]="str" rows="4" cols="50"></textarea>
+</label>
+
+<p *ngIf="isInEdition" (click)="validate()">{{str}}</p>
+
+

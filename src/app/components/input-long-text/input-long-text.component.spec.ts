@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MaterielComponent } from './materiel.component';
+import { InputLongTextComponent } from './input-long-text.component';
 
-describe('MaterielComponent', () => {
-  let component: MaterielComponent;
-  let fixture: ComponentFixture<MaterielComponent>;
+describe('InputLongTextComponent', () => {
+  let component: InputLongTextComponent;
+  let fixture: ComponentFixture<InputLongTextComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MaterielComponent ]
+      declarations: [ InputLongTextComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MaterielComponent);
+    fixture = TestBed.createComponent(InputLongTextComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
