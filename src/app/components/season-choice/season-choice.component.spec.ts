@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SeasonDescribeComponent } from './season-describe.component';
+import { SeasonChoiceComponent } from './season-choice.component';
 
-describe('seasonDescribeComponent', () => {
-  let component: SeasonDescribeComponent;
-  let fixture: ComponentFixture<SeasonDescribeComponent>;
+describe('SeasonChoiceComponent', () => {
+  let component: SeasonChoiceComponent;
+  let fixture: ComponentFixture<SeasonChoiceComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SeasonDescribeComponent ]
+      declarations: [ SeasonChoiceComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SeasonDescribeComponent);
+    fixture = TestBed.createComponent(SeasonChoiceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

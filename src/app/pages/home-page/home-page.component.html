@@ -1,3 +1,4 @@
 <app-attributs id ="attributs" ></app-attributs>
-<app-main class="main"></app-main>
-<app-footer></app-footer>
+<app-season-choice (seasonChoice)="changeSeason($event)" [seasonDescribe]="seasonDescribe"></app-season-choice>
+<app-main [seasonDescribe]="objToSend" class="main"></app-main>
+<app-footer  [seasonDescribe]="objToSend"  ></app-footer>

@@ -28,7 +28,8 @@ import { InputListComponent } from './components/input-list/input-list.component
 import { InputCircleComponent } from './components/input-circle/input-circle.component';
 import { SeasonDescribeComponent } from './components/footer/season-describe/season-describe.component';
 import { ClickOutsideModule } from 'ng-click-outside';
-
+import { SeasonChoiceComponent } from './components/season-choice/season-choice.component';
+import { Component, Input } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { ClickOutsideModule } from 'ng-click-outside';
     InputListComponent,
     InputCircleComponent,
     SeasonDescribeComponent,
+    SeasonChoiceComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),
