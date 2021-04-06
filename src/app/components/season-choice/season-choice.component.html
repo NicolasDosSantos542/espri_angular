@@ -1,1 +1,3 @@
-<p>season-choice works!</p>
+<div class="seasonchoice">
+    <img *ngFor="let value of seasonDescribe" src="assets/{{value.token}}" (click)="changeSeason(value.id)" width="40" alt="choix de l'automne">
+</div>

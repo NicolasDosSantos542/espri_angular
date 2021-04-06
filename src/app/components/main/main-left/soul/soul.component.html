@@ -2,11 +2,11 @@
 <div id="ame">
 
 
-    <div  *ngFor="let array of soulArray" id="{{array.typeTitle}}">
-        <p>{{array.typeTitle}} : {{array.type}}</p>
+    <div  *ngFor="let soul of soulArray" id="{{soul.typeTitle}}">
+        <p>{{soul.typeTitle}} : {{soul.type}}</p>
         <div class="ame-content">
 
-            <p>{{array.typeScore}} :</p> <app-input-value  class="harmonie"></app-input-value>
+            <p>{{soul.typeScore}} :</p> <app-input-value  class="harmonie"></app-input-value>
         </div>
     </div>
 

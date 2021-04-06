@@ -1,28 +1,57 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-soul',
-  templateUrl: './soul.component.html',
-  styleUrls: ['./soul.component.css']
+    selector: 'app-soul',
+    templateUrl: './soul.component.html',
+    styleUrls: ['./soul.component.css']
 })
-export class SoulComponent implements OnInit {
-  soulArray = [
-    { typeTitle: 'essence',
-    type: 'Prévoyance',
-    typeScore: 'harmonie'},
-    { typeTitle: 'anatheme',
-      type: 'Versatilité',
-      typeScore: 'Anathème'}
-  ];
+export class SoulComponent implements OnInit, OnChanges{
+    @Input() seasonDescribe;
+    soulArray =[
+        {
+            typeTitle: '',
+            type: '',
+            typeScore: ''
+        },
+        {
+            typeTitle: '',
+            type: '',
+            typeScore: ''
+        }
+    ];
 
-  constructor() {
-    console.log(this.soulArray[0].type);
-  }
+    constructor() {
+    }
 
-  onClick(value) {
-    console.log(value);
-  }
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+        console.log(this.seasonDescribe);
+        this.soulArray = [
+            {
+                typeTitle: 'essence',
+                type: this.seasonDescribe.essence,
+                typeScore: 'harmonie'
+            },
+            {
+                typeTitle: 'anatheme',
+                type: this.seasonDescribe.anatheme,
+                typeScore: 'Anathème'
+            }
+        ];
+    }
+
+    ngOnChanges(){
+        this.soulArray = [
+            {
+                typeTitle: 'essence',
+                type: this.seasonDescribe.essence,
+                typeScore: 'harmonie'
+            },
+            {
+                typeTitle: 'anatheme',
+                type: this.seasonDescribe.anatheme,
+                typeScore: 'Anathème'
+            }
+        ];
+    }
 
 }

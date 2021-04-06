@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
     selector: 'app-main-left',
@@ -6,6 +6,7 @@ import {Component, OnInit} from '@angular/core';
     styleUrls: ['./main-left.component.css']
 })
 export class MainLeftComponent implements OnInit {
+    @Input() seasonDescribe;
     constructor() {
     }
 
