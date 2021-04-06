@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/keywords/keywords.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/keywords/keywords.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/keywords/keywords.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/keywords/keywords.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/maxim/maxim.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/maxim/maxim.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/maxim/maxim.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/maxim/maxim.component.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/components/footer" />
       <recent name="$PROJECT_DIR$/src/app/components" />
       <recent name="$PROJECT_DIR$/src/app/components/attributs" />
       <recent name="$PROJECT_DIR$/src/app/footer" />
       <recent name="$PROJECT_DIR$/src/app/components/main/main-right" />
-      <recent name="$PROJECT_DIR$/src/app/components/main/main-left" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -89,7 +97,7 @@
       <workItem from="1617262860794" duration="599000" />
       <workItem from="1617288261400" duration="225000" />
       <workItem from="1617363124825" duration="10800000" />
-      <workItem from="1617693089504" duration="3637000" />
+      <workItem from="1617693089504" duration="4156000" />
     </task>
     <servers />
   </component>
