@@ -1,6 +1,6 @@
 
     <label>
-        <input *ngIf="!isInEdition" (change)="validate()" [value]="" [(ngModel)]="str" type="text"/>
+        <input *ngIf="!isInEdition" (change)="validate()" [value]="" [(ngModel)]="str" type="text" maxlength="1"/>
     </label>
 
     <p *ngIf="isInEdition" (click)="validate()">{{str}}</p>

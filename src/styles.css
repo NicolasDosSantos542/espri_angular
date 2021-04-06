@@ -181,10 +181,16 @@ th, td {
 }
 
 .saison-score {
-    margin: 25px;
+    margin: 10px;
     font-size: 3em;
     position: relative;
     bottom: 10px;
+    text-align: center;
+}
+.saison-score p {
+    position: relative;
+    bottom: 39px;
+
 }
 
 .nymphe {

@@ -5,12 +5,12 @@
         <img alt="nymphe {{value.name}}" class="nymphe" height="80px"
              src="./../../../../assets/nymphe-{{value.id}}-small.png" width="80px">
     </div>
-    <div *ngIf="!value.isOnLeft" class="saison-pastille  "><p class=saison-score>X</p></div>
+    <div *ngIf="!value.isOnLeft"><app-input-circle></app-input-circle></div>
     <div class="saison-texte">
         <p><strong>{{value.name}}</strong></p>
         <p>{{value.keywords}}</p>
     </div>
-    <input type="text" *ngIf="value.isOnLeft" class="saison-pastille saison-score " [(ngModel)]="value.score" [value]="value.score">
+    <div *ngIf="value.isOnLeft"><app-input-circle></app-input-circle></div>
     <div *ngIf="!value.isOnLeft" class="saison-pastille  nymphe">
         <img alt="nymphe {{value.name}}" class="nymphe" height="80px"
              src="./../../../../assets/nymphe-{{value.id}}-small.png" width="80px">
@@ -22,5 +22,5 @@
 <div class="devotion-text"><p><span><br>Dévotion</span></p></div>
 <div class="saison-pastille   " id="temps"><p (click)="onSeasonClick('value')" class=saison-score>X</p></div>
 
-<app-input-circle>coucou</app-input-circle>
+<app-input-circle></app-input-circle>
 
