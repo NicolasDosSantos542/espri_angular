@@ -8,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 export class InputCircleComponent implements OnInit {
     isInEdition = false;
     str = '';
-    coucou: "coucou";
+
 
     constructor() {
     }
@@ -18,7 +18,6 @@ export class InputCircleComponent implements OnInit {
 
     validate() {
         this.isInEdition = this.isInEdition === false;
-        console.log(this.isInEdition);
     }
 
 }

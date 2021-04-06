@@ -27,6 +27,7 @@ import { InputValueComponent } from './components/input-value/input-value.compon
 import { InputListComponent } from './components/input-list/input-list.component';
 import { InputCircleComponent } from './components/input-circle/input-circle.component';
 import { SeasonDescribeComponent } from './components/footer/season-describe/season-describe.component';
+import { ClickOutsideModule } from 'ng-click-outside';
 
 
 @NgModule({
@@ -59,6 +60,7 @@ import { SeasonDescribeComponent } from './components/footer/season-describe/sea
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    ClickOutsideModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
