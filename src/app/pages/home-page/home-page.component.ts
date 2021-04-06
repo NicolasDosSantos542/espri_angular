@@ -47,8 +47,10 @@ export class HomePageComponent implements OnInit {
             keywords: [
                 'Résistance',
                 'Construire',
-                'Acquis Préparer',
-                'Patience Gravité',
+                'Acquis',
+                'Préparer',
+                'Patience',
+                'Gravité',
                 'Pragmatisme',
                 'Arrêter',
                 'Pierre',
@@ -106,13 +108,13 @@ export class HomePageComponent implements OnInit {
     objToSend = {};
 
     constructor() {
-        this.objToSend = this.seasonDescribe[0];
+        this.objToSend = this.seasonDescribe[2];
     }
 
     ngOnInit(): void {
     }
 
-    changeSeason(season){
+    changeSeason(season) {
         this.objToSend = this.seasonDescribe.find(data => data.id === season);
     }
 }
