@@ -8,17 +8,16 @@ import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 export class InputValueComponent implements OnInit {
 
 
-
-
     isInEdition = false;
     str = '';
     islist: false;
 
 
-
     validate() {
-        this.isInEdition = this.isInEdition === false;
-        console.log(this.isInEdition);
+        if (this.str !== '') {
+            this.isInEdition = this.isInEdition === false;
+            console.log(this.isInEdition);
+        }
     }
 
     constructor() {

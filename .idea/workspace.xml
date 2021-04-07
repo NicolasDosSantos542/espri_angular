@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/input-long-text/input-long-text.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/input-long-text/input-long-text.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/magie-et-materiel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/magie-et-materiel.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/magie/magie.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-long-text/input-long-text.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/magie/magie.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/magie/magie.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/magie/magie.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/materiel/materiel.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/materiel/materiel.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/materiel/materiel.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-long-text/input-long-text.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/magie-et-materiel/materiel/materiel.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/atouts-defauts/atouts-defauts.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/atouts-defauts/atouts-defauts.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/atouts-defauts/atouts-defauts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/atouts-defauts/atouts-defauts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/atouts-defauts/atouts-defauts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/atouts-defauts/atouts-defauts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/logo/logo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/logo/logo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-list/input-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-list/input-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-list/input-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-list/input-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/season-choice/season-choice.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/season-choice/season-choice.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +109,8 @@
       <workItem from="1617288261400" duration="225000" />
       <workItem from="1617363124825" duration="10800000" />
       <workItem from="1617693089504" duration="20170000" />
+      <workItem from="1617728847012" duration="613000" />
+      <workItem from="1617779549139" duration="5196000" />
     </task>
     <servers />
   </component>

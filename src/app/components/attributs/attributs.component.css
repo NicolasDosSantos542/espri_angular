@@ -1,0 +1,40 @@
+
+
+#attributs {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+
+
+
+
+.icone {
+    height: 0.6em;
+    width: auto;
+    margin-top: 10px;
+
+}
+
+.info-perso {
+    text-align: center;
+    width: 60%;
+}
+.header-content {
+    display: flex;
+
+    margin-bottom: 20px;
+    justify-content: space-between;
+    /*    display: flex;*/
+}
+.header-container{
+    margin-top: 20px;
+}

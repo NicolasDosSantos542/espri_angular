@@ -3,7 +3,7 @@
         <input *ngIf="!isInEdition" (change)="validate()" [value]="" [(ngModel)]="str" type="text"/>
     </label>
 
-    <p *ngIf="isInEdition" (click)="validate()">{{str}}</p>
+    <p class="input-value" *ngIf="isInEdition" (click)="validate()">{{str}}</p>
 
 
 

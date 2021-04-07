@@ -21,53 +21,9 @@ body {
     font-style: normal;
     line-height: 1;
 }
-
-/*p {
-    margin-top: 5px;
-    margin-bottom: 0;
-}*/
-
-#attributs {
-    display: flex;
-    height: 150px;
-    justify-content: space-evenly;
-
-
-}
 input{
     border : none !important;
     background-color: #f2f8fa;
-}
-#logo {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15px;
-}
-
-.header-content {
-   width: 50%;
-    margin-left: 50px;
-    margin-right: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    /*    display: flex;*/
-}
-
-.header-container {
-    display: flex;
-}
-
-.icone {
-    height: 0.6em;
-    width: auto;
-    margin-top: 10px;
-
-}
-
-.info-perso {
-    text-align: center;
-    width: 60%;
 }
 
 

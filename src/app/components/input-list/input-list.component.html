@@ -1,9 +1,10 @@
-<p>{{value}} : <label>
-    <input (change)="validate(str)" [(ngModel)]="str" type="text"/>
-</label></p>
+<div>
+    <p>{{value}} : <label>
+        <input (change)="validate(str)" [(ngModel)]="str" type="text"/>
+    </label></p>
 
-
-<p *ngFor="let value of listValues "> | {{value}}</p>
-
-
+    <div class="list-of-values">
+        <p *ngFor="let value of listValues ">  | {{value}}</p>
+    </div>
+</div>
 

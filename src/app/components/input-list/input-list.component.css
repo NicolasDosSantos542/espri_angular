@@ -5,7 +5,11 @@ input[type=text] {
     height: 1.2em;
 }
 
-.value-from-list{
-    max-width: 50px !important;
-    background-color: blue !important;
+
+.list-of-values{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    max-width: 500px;
+    line-height: 0.1em;
 }
