@@ -1,14 +1,13 @@
 
 <div class=" seven magie-materiel" id="elements">
     <div id="magie"><h3>Magie</h3>
-        <p>Talisman: <app-input-value></app-input-value></p>
-        <p>Liturgie: <app-input-value></app-input-value></p>
-        <p>Sortilèges: <app-input-list></app-input-list></p>
+       <div *ngFor="let value of arrayMagic" class="input-container"><p class="magie-text">{{value}}: </p><app-input-value></app-input-value></div>
+        <div class="input-container"><p class="magie-text">Sortilège: </p><app-input-list></app-input-list></div>
+
     </div>
     <div id="materiel"><h3>Matériel</h3>
         <ul id="liste-de-materiel">
             <app-input-long-text></app-input-long-text>
-
         </ul>
     </div>
 </div>
