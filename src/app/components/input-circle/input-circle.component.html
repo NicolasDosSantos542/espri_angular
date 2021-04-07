@@ -1,10 +1,9 @@
 <div ><label>
-    <input class="saison-score saison-pastille" type="number" min="0" max="10" *ngIf="!isInEdition" (keyup.enter)="validate()"  [(ngModel)]="str" />
+    <input class="saison-score pastille" type="number" min="0" max="10" *ngIf="!isInEdition" (keyup.enter)="validate()" [(ngModel)]="str" />
 </label>
 
-<div class="saison-score saison-pastille " *ngIf="isInEdition" (click)="validate()">
+<div class="saison-score pastille " *ngIf="isInEdition" (click)="validate()">
     <p>{{str}}</p>
     </div>
-
 </div>
 

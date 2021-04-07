@@ -1,5 +1,4 @@
 
-
 #attributs {
     display: flex;
     justify-content: space-evenly;
@@ -13,10 +12,6 @@
     margin-top: 15px;
 }
 
-
-
-
-
 .icone {
     height: 0.6em;
     width: auto;
@@ -28,13 +23,13 @@
     text-align: center;
     width: 60%;
 }
+
 .header-content {
     display: flex;
-
     margin-bottom: 20px;
     justify-content: space-between;
-    /*    display: flex;*/
 }
-.header-container{
+
+.header-container {
     margin-top: 20px;
 }

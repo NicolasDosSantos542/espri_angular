@@ -5,3 +5,7 @@ input[type=text] {
     height: 1.2em;
 }
 
+.input-value
+{
+margin-top: 0;
+}

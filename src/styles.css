@@ -28,168 +28,18 @@ input{
 
 
 
-
-
-
 .main {
     padding-top: 10px;
     display: flex;
 }
 
-/*-------------------------PARTIE DE GAUCHE------------------------------------------------*/
-
-#tables h3 {
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid;
-}
-
-th, td {
-    border: 1px dotted black;
-    height: 1em;
-}
-
-
-#ame {
-    display: flex;
-    justify-content: space-around;
-}
-
-#ame > div {
-    width: 50%;
-    min-width: 200px;
-    margin: 10px;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-#ame div div {
-    width: 100%;
-}
-
-#essence {
-    border: 4px solid #d9d9d9;
-
-}
-
-.ame-content {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex;
-}
-
-.harmonie {
-    width: 70%
-}
-
-#anatheme {
-    border: 4px solid #5e266a;
-}
-
-
-/*---------------------------PARTIE DE DROITE-------------------------------------------------*/
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(21, 1fr);
-    grid-gap: 1px;
-    grid-auto-rows: minmax(40px, auto);
-}
 
 
 
-.devotion-text {
-    grid-column: 13 / span 2;
-    grid-row: 3 /span 1;
-    text-align: right;
-}
 
-.devotion-text > p > span {
-    vertical-align: middle;
-}
 
-.saison {
-    border-radius: 45px;
-    margin: -5px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5px;
-}
 
-.saison-pastille {
-    min-height: 80px;
-    max-height: 80px;
-    max-width: 80px;
-    min-width: 80px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    position: relative;
-    bottom: 2px;
-}
 
-.saison-texte {
-    font-size: 0.8em;
-    text-align: center;
-}
-
-.saison-score {
-    margin: 10px;
-    font-size: 3em;
-    position: relative;
-    bottom: 10px;
-    text-align: center;
-    right: 10px;
-}
-
-.nymphe {
-    border-radius: 50%;
-    border: none;
-}
-
-#winter {
-    grid-column: 2 / span 10;
-    grid-row: 1 /span 2;
-    border: 3px solid #9a99ff;
-
-}
-
-#spring {
-    grid-column: 13 /span 10;
-    grid-row: 1 /span 2;
-    border: 3px solid #a9d18e;
-
-}
-
-#autumn {
-    grid-column: 2 / span 10;
-    grid-row: 4 / span 2;
-    border: 3px solid #ff0000;
-
-}
-
-#summer {
-    grid-column: 13 /span 10;
-    grid-row: 4 / span 2;
-    border: 3px solid #ffd966;
-}
-
-#temps {
-    grid-column: 12/span 1;
-    grid-row: 3 / span 1;
-    border: double 4px;
-
-}
-
-.seven {
-    grid-column: 10 /span 12;
-    grid-row: 7;
-    margin-left: 15px;
-}
 
 
 .magie-materiel {
@@ -200,18 +50,6 @@ th, td {
 .magie-materiel > div {
     width: 50%;
     margin: 5px;
-}
-
-#temps {
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    text-align: center;
-}
-
-#temps.p {
-    vertical-align: middle;
-
 }
 
 #footer {

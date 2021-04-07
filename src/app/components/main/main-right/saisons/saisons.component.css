@@ -1,0 +1,40 @@
+
+.devotion-text > p > span {
+    vertical-align: middle;
+}
+
+.saison {
+    border-radius: 45px;
+    margin: -5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    height: 90px;
+}
+
+.saison-texte {
+    font-size: 0.8em;
+    text-align: center;
+    height: 50px;
+}
+
+
+.nymphe {
+    border-radius: 50%;
+    border: none;
+}
+#temps {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    text-align: center;
+    border: double 4px;
+}
+#temps > div {
+    border-style: none !important;
+}
+
+#temps.p {
+    vertical-align: middle;
+
+}
