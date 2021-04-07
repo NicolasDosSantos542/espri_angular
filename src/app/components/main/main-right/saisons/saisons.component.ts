@@ -3,7 +3,7 @@ import {Component, OnInit} from '@angular/core';
 @Component({
     selector: 'app-saisons',
     templateUrl: './saisons.component.html',
-    styleUrls: ['./saisons.component.css']
+    styleUrls: ['./saisons.component.css', '../main-right.component.css']
 })
 export class SaisonsComponent implements OnInit {
     seasonArray = [

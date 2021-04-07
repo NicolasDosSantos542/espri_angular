@@ -3,3 +3,29 @@
     bottom: 39px;
 
 }
+.saison-pastille {
+    min-height: 80px;
+    max-height: 80px;
+    max-width: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    position: relative;
+    bottom: 2px;
+}
+
+.saison-score {
+    margin: 10px;
+    font-size: 3em;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    right: 10px;
+}
+#temps >div>.saison-pastille{
+    border: none;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
