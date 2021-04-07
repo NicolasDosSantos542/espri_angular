@@ -4,11 +4,9 @@
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/main-right.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-right/main-right.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/saisons/saisons.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-right/saisons/saisons.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/saisons/saisons.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-right/saisons/saisons.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-right/saisons/saisons.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-right/saisons/saisons.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1617363124825" duration="10800000" />
       <workItem from="1617693089504" duration="20170000" />
       <workItem from="1617728847012" duration="613000" />
-      <workItem from="1617779549139" duration="8802000" />
+      <workItem from="1617779549139" duration="10372000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,7 @@
     bottom: 39px;
 
 }
-.saison-pastille {
+.pastille {
     min-height: 80px;
     max-height: 80px;
     max-width: 80px;
@@ -22,7 +22,7 @@
     text-align: center;
     right: 10px;
 }
-#temps >div>.saison-pastille{
+#temps >div>.pastille{
     border: none;
     position: relative;
     top: 0px;

@@ -9,11 +9,13 @@
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
+    height: 90px;
 }
 
 .saison-texte {
     font-size: 0.8em;
     text-align: center;
+    height: 50px;
 }
 
 
@@ -21,7 +23,6 @@
     border-radius: 50%;
     border: none;
 }
-
 #temps {
     height: 90px;
     width: 90px;
@@ -29,7 +30,6 @@
     text-align: center;
     border: double 4px;
 }
-
 #temps > div {
     border-style: none !important;
 }

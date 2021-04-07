@@ -1,7 +1,7 @@
 
 
 <div *ngFor="let value of seasonArray" class="saison" id="{{value.id}}">
-    <div *ngIf="value.isOnLeft" class="saison-pastille  nymphe">
+    <div *ngIf="value.isOnLeft" class="pastille  nymphe">
         <img alt="nymphe {{value.name}}" class="nymphe" height="80px"
              src="./../../../../assets/nymphe-{{value.id}}-small.png" width="80px">
     </div>
@@ -11,7 +11,7 @@
         <p>{{value.keywords}}</p>
     </div>
     <div *ngIf="value.isOnLeft"><app-input-circle></app-input-circle></div>
-    <div *ngIf="!value.isOnLeft" class="saison-pastille  nymphe">
+    <div *ngIf="!value.isOnLeft" class="pastille  nymphe">
         <img alt="nymphe {{value.name}}" class="nymphe" height="80px"
              src="./../../../../assets/nymphe-{{value.id}}-small.png" width="80px">
     </div>
@@ -20,7 +20,7 @@
 <!--<input type="text" class="saison-pastille saison-score">-->
 
 <div class="devotion-text"><p><span><br>Dévotion</span></p></div>
-<app-input-circle class="saison-pastille   " id="temps"></app-input-circle>
+<app-input-circle class="pastille   " id="temps"></app-input-circle>
 
 
 
