@@ -3,7 +3,7 @@ import {Component, Input, OnChanges, OnInit} from '@angular/core';
 @Component({
     selector: 'app-soul',
     templateUrl: './soul.component.html',
-    styleUrls: ['./soul.component.css']
+    styleUrls: ['./soul.component.css', '../main-left.component.css']
 })
 export class SoulComponent implements OnInit, OnChanges{
     @Input() seasonDescribe;

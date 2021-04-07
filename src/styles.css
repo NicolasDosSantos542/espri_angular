@@ -38,59 +38,10 @@ input{
 
 /*-------------------------PARTIE DE GAUCHE------------------------------------------------*/
 
-#tables h3 {
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid;
-}
-
-th, td {
-    border: 1px dotted black;
-    height: 1em;
-}
 
 
-#ame {
-    display: flex;
-    justify-content: space-around;
-}
 
-#ame > div {
-    width: 50%;
-    min-width: 200px;
-    margin: 10px;
-    border-radius: 25px;
-    padding: 10px;
-}
 
-#ame div div {
-    width: 100%;
-}
-
-#essence {
-    border: 4px solid #d9d9d9;
-
-}
-
-.ame-content {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex;
-}
-
-.harmonie {
-    width: 70%
-}
-
-#anatheme {
-    border: 4px solid #5e266a;
-}
 
 
 /*---------------------------PARTIE DE DROITE-------------------------------------------------*/

@@ -1,0 +1,15 @@
+ h3 {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+ table {
+     margin-top: 20px;
+     width: 100%;
+     border-collapse: collapse;
+     border: 1px solid;
+ }
+ th, td {
+     border: 1px dotted black;
+     height: 1em;
+ }
