@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
-    height: 90px;
+    height: 85px;
 }
 
 .saison-texte {
@@ -24,17 +24,26 @@
     border: none;
 }
 #temps {
-    height: 90px;
-    width: 90px;
+    height: 97px;
+    width: 97px;
     border-radius: 50%;
     text-align: center;
     border: double 4px;
 }
 #temps > div {
     border-style: none !important;
+
 }
 
 #temps.p {
     vertical-align: middle;
 
+}
+.score-left{
+border:5px;
+    width: 900px;
+    background-color: #5e266a;
+}
+.score-right{
+    border:5px
 }
