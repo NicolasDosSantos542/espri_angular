@@ -12,7 +12,7 @@ export class HomePageComponent implements OnInit {
             name: 'hiver',
             id: 'winter',
             token: 'Token_Hiver_small.png',
-            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma vision. Prodigue-les au Monde, soigne ses lésions.',
+            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma vision. Prodigue-les au Monde, soigne ses lésions.',
             keywords: [
                 'Coordination ',
                 'Eau ',
@@ -33,7 +33,7 @@ export class HomePageComponent implements OnInit {
             id: 'spring',
             token: 'Token_Printemps_small.png',
             maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, ' +
-                'deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma sapience.' +
+                'deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma sapience.' +
                 ' Prodigue-les au Monde, relance sa danse.',
             keywords: [
                 'Pacifisme ',
@@ -54,7 +54,7 @@ export class HomePageComponent implements OnInit {
             name: 'été',
             id: 'summer',
             token: 'Token_Ete_small.png',
-            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma ferveur. Prodigue-les au Monde, rends-lui sa saveur.',
+            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma ferveur. Prodigue-les au Monde, rends-lui sa saveur.',
             keywords: [' Vitesse', ' Lumière', ' Emotion', ' Feu', ' Empathie', ' Interaction ', ' Puissance ', ' Passion ', ' Beau ', ' Sacrifice'],
             essence: 'Emotion',
             anatheme: 'Facilité'
@@ -65,7 +65,7 @@ export class HomePageComponent implements OnInit {
             id: 'autumn',
             token: 'Token_Automne_small.png',
             maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, ' +
-                'deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix, mon savoir-faire.' +
+                'deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix, mon savoir-faire.' +
                 ' Prodigue-les au Monde, reforge son fer.',
             keywords: [
                 'Résistance',
