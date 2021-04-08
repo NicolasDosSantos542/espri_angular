@@ -11,5 +11,10 @@ input[type=text] {
     flex-wrap: wrap ;
     justify-content: space-between;
     max-width: 500px;
-    line-height: 0.1em;
+    margin: 0;
+    padding: 1;
+}
+.value-from-list{
+    background-color: #e8e8e8;
+    margin: 1px;
 }
