@@ -7,16 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
     seasonDescribe = [
-        {
-            name: 'été',
-            id: 'summer',
-            token: 'Token_Ete_small.png',
-            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma ferveur. Prodigue-les au Monde, rends-lui sa saveur.',
-            keywords: [' Vitesse', ' Lumière', ' Emotion', ' Feu', ' Empathie', ' Interaction ', ' Puissance ', ' Passion ', ' Beau ', ' Sacrifice'],
-            essence: 'Emotion',
-            anatheme: 'Facilité'
 
-        },
         {
             name: 'hiver',
             id: 'winter',
@@ -36,6 +27,38 @@ export class HomePageComponent implements OnInit {
             ],
             essence: 'Opportunisme',
             anatheme: 'Fierté',
+        },
+        {
+            name: 'Printemps',
+            id: 'spring',
+            token: 'Token_Printemps_small.png',
+            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, ' +
+                'deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma sapience.' +
+                ' Prodigue-les au Monde, relance sa danse.',
+            keywords: [
+                'Pacifisme ',
+                'Sens ',
+                'Réflexion ',
+                'Rythme ',
+                'Candeur',
+                'Vent ',
+                'Curiosité ',
+                'Vérité ',
+                'Tromper ',
+                'Subtilité',
+            ],
+            essence: 'Curiosité',
+            anatheme: 'Force',
+        },
+        {
+            name: 'été',
+            id: 'summer',
+            token: 'Token_Ete_small.png',
+            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma ferveur. Prodigue-les au Monde, rends-lui sa saveur.',
+            keywords: [' Vitesse', ' Lumière', ' Emotion', ' Feu', ' Empathie', ' Interaction ', ' Puissance ', ' Passion ', ' Beau ', ' Sacrifice'],
+            essence: 'Emotion',
+            anatheme: 'Facilité'
+
         },
         {
             name: 'Automne',
@@ -60,27 +83,6 @@ export class HomePageComponent implements OnInit {
             anatheme: 'Versatilité',
         },
         {
-            name: 'Printemps',
-            id: 'spring',
-            token: 'Token_Printemps_small.png',
-            maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, ' +
-                'deviens mon héraut. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma sapience.' +
-                ' Prodigue-les au Monde, relance sa danse.',
-            keywords: [
-                'Pacifisme ',
-                'Sens ',
-                'Réflexion ',
-                'Rythme ',
-                'Candeur',
-                'Vent ',
-                'Curiosité ',
-                'Vérité ',
-                'Tromper ',
-                'Subtilité',
-            ],
-            essence: 'Curiosité',
-            anatheme: 'Force',
-        }, {
             name: 'temps',
             id: 'time',
             token: 'Token_Temps_small.png',
