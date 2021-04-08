@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1617779549139" duration="10732000" />
       <workItem from="1617796404489" duration="664000" />
       <workItem from="1617800620425" duration="3553000" />
-      <workItem from="1617865057368" duration="2114000" />
+      <workItem from="1617865057368" duration="2231000" />
     </task>
     <servers />
   </component>

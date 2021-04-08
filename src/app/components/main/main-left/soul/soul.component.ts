@@ -27,14 +27,14 @@ export class SoulComponent implements OnInit, OnChanges{
         console.log(this.seasonDescribe);
         this.soulArray = [
             {
-                typeTitle: 'essence',
+                typeTitle: 'Essence',
                 type: this.seasonDescribe.essence,
-                typeScore: 'harmonie'
+                typeScore: 'Harmonie'
             },
             {
-                typeTitle: 'anatheme',
+                typeTitle: 'Anathème',
                 type: this.seasonDescribe.anatheme,
-                typeScore: 'Anathème'
+                typeScore: 'Rupture'
             }
         ];
     }
