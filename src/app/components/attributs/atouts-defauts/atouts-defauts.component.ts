@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
     styleUrls: ['./atouts-defauts.component.css', '../attributs.component.css']
 })
 export class AtoutsDefautsComponent implements OnInit {
-    atoutsDefauts = ['Atouts', 'Defauts'];
+    atoutsDefauts = ['Atouts :', 'Defauts :'];
 
     constructor() {
     }
