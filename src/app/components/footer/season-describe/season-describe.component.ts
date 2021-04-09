@@ -7,10 +7,9 @@ import {Component, Input, OnInit} from '@angular/core';
     styleUrls: ['./season-describe.component.css']
 })
 export class SeasonDescribeComponent implements OnInit {
-    @Input() seasonDescribe;
+    @Input() currentSeason;
 
     constructor() {
-        console.log('toto' + this.seasonDescribe);
     }
 
     ngOnInit() {

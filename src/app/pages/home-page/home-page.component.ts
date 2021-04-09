@@ -106,8 +106,12 @@ export class HomePageComponent implements OnInit {
             anatheme: 'Passivité',
         },
     ];
-    objToSend = {};
+    objToSend = {
+        id: undefined,
+        name: undefined
+    };
     personnages: [{
+        idSaison: '',
         nom: '',
         lignee: '',
         age: '',

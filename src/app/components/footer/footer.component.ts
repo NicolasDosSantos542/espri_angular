@@ -6,10 +6,9 @@ import {Component, Input, OnInit} from '@angular/core';
     styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-    @Input() seasonDescribe: object;
+    @Input() currentSeason: object;
 
     constructor() {
-        console.log('tata' + this.seasonDescribe);
     }
 
     ngOnInit(): void {

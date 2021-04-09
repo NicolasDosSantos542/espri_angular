@@ -1,19 +1,19 @@
 <div id="footer">
-    <p class="maxim" id="maxime-{{seasonDescribe.id}}" ><span>{{seasonDescribe.maxim}}</span></p>
+    <p class="maxim" id="maxime-{{currentSeason.id}}" ><span>{{currentSeason.maxim}}</span></p>
 
     <div id="keywords-de-saison">
-        <img alt="token de saison" id="token-left" src="../../../../assets/{{seasonDescribe.token}}" >
-        <div id="keyword-container-{{seasonDescribe.id}}">
+        <img alt="token de saison" id="token-left" src="../../../../assets/{{currentSeason.token}}" >
+        <div id="keyword-container-{{currentSeason.id}}">
 
             <ul class="keyword" >
-                <li *ngFor="let value of seasonDescribe.keywords | slice:0:5">{{value}}</li>
+                <li *ngFor="let value of currentSeason.keywords | slice:0:5">{{value}}</li>
 
             </ul>
             <ul class="keyword" >
-                <li *ngFor="let value of seasonDescribe.keywords | slice:5:10">{{value}}</li>
+                <li *ngFor="let value of currentSeason.keywords | slice:5:10">{{value}}</li>
 
             </ul>
         </div>
-        <img alt="token de saison" id="token-right" src="../../../../assets/{{seasonDescribe.token}}">
+        <img alt="token de saison" id="token-right" src="../../../../assets/{{currentSeason.token}}">
     </div>
 </div>

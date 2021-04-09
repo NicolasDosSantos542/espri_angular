@@ -13,7 +13,6 @@ export class InputLongTextComponent implements OnInit {
 
     validate() {
         this.isInEdition = this.isInEdition === false;
-        console.log(this.isInEdition);
     }
 
     constructor() {
