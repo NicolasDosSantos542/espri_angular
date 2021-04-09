@@ -1,8 +1,9 @@
 input[type=text] {
-    border: dotted 1px;
+    border: none;
     border-radius: 5px;
     width: 100px;
     height: 1.2em;
+    outline: none;
 }
 
 

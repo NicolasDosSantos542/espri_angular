@@ -13,9 +13,14 @@
 }
 
 .saison-texte {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
     height: 50px;
+}
+.saison-text strong , p{
+    margin-bottom: 2px;
+    padding: 2px;
+    margin-top: 2px;
 }
 
 
@@ -42,8 +47,21 @@
 .score-left{
 border:5px;
     width: 900px;
-    background-color: #5e266a;
+    position: relative;
+    bottom: 13px;
+    left: 11px;
+
+
 }
 .score-right{
-    border:5px
+    border:5px;
+    position: relative;
+    bottom: 13px;
+    right: 11px;
+
+}
+#score-temps{
+    position: relative;
+    bottom: 3px;
+    right: 3px;
 }

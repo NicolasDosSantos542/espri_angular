@@ -10,22 +10,22 @@
     min-width: 80px;
     border-radius: 50%;
     border: 1px solid #ffffff;
-    position: relative;
-    bottom: 2px;
+/*    position: relative;
+    bottom: 2px;*/
 }
 
 .saison-score {
     margin: 10px;
     font-size: 3em;
-    position: relative;
-    bottom: 10px;
     text-align: center;
-    right: 10px;
+/*    position: relative;
+    bottom: 10px;
+    right: 10px;*/
 }
 #temps >div>.pastille{
     border: none;
-    position: relative;
+/*    position: relative;
     top: 0px;
-    right: 0px;
+    right: 0px;*/
 }
 
