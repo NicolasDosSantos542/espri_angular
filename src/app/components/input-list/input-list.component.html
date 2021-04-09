@@ -3,8 +3,9 @@
         <input (change)="validate(str)" [(ngModel)]="str" type="text"/>
     </label></p>
 
-    <div class="list-of-values">
-        <p class="value-from-list" *ngFor="let value of listValues ">{{value}}</p>
-    </div>
+    <ul class="list-of-values">
+        <li class="value-from-list" *ngFor="let value of listValues "><app-input-list-content [contentValue]="value"></app-input-list-content></li>
+
+    </ul>
 </div>
 

@@ -1,0 +1,13 @@
+
+
+
+
+
+
+<li class="input-value" *ngIf="!isInEdition" (click)="validate()">{{contentValue}}</li>
+<label>
+    <input *ngIf="isInEdition" (change)="validate()" [value]="" [(ngModel)]="contentValue" type="text"/>
+</label>
+
+
+

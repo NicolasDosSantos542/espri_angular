@@ -25,4 +25,8 @@ export class InputListComponent implements OnInit {
 
     ngOnInit(): void {
     }
+
+    onClick() {
+
+    }
 }

@@ -28,6 +28,7 @@ import { SeasonDescribeComponent } from './components/footer/season-describe/sea
 import { ClickOutsideModule } from 'ng-click-outside';
 import { SeasonChoiceComponent } from './components/season-choice/season-choice.component';
 import { InputLongTextComponent } from './components/input-long-text/input-long-text.component';
+import { InputListContentComponent } from './components/input-list-content/input-list-content.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { InputLongTextComponent } from './components/input-long-text/input-long-
     SeasonDescribeComponent,
     SeasonChoiceComponent,
     InputLongTextComponent,
+    InputListContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),
