@@ -1,10 +1,9 @@
-.relation-input{
-width: 120px !important;
-  border: 0 solid ;
 
-
-
-}
 #relations td {
     padding: 0;
+}
+.relation-score{
+    display: flex;
+    justify-content: space-around;
+    border: none;
 }

@@ -1,0 +1,9 @@
+
+<label>
+    <input *ngIf="!isInEdition" (focusout)="validate()" [value]="" [(ngModel)]="str" type="number" min="0"/>
+</label>
+
+<p class="input-value" *ngIf="isInEdition" (click)="validate()">{{str}}</p>
+
+
+
