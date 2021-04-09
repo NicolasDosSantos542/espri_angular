@@ -1,5 +1,7 @@
 <div ><label>
-    <input class="saison-score pastille" type="number" min="0" max="10" *ngIf="!isInEdition" (keyup.enter)="validate()" [(ngModel)]="str" />
+    <input class="saison-score pastille" type="number" min="0" max="10" *ngIf="!isInEdition"
+           (keyup.enter)="validate()"  (focusout)="validate()"
+           [(ngModel)]="str" />
 </label>
 
 <div class="saison-score pastille " *ngIf="isInEdition" (click)="validate()">
