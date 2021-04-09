@@ -106,8 +106,29 @@ export class HomePageComponent implements OnInit {
             anatheme: 'Passivité',
         },
     ];
-
     objToSend = {};
+    personnages: [{
+        nom: '',
+        lignee: '',
+        age: '',
+        role: '',
+        talents: [],
+        atouts: [],
+        defauts: [],
+        harmonie: '',
+        rupture: '',
+        sante: [{ etat: '', type: '', intensite: '' }],
+        relations: [{ nom: '', nature: '', resonnance: [] }]
+        hiver: '',
+        printemps: '',
+        ete: '',
+        automne: '',
+        devotion: '',
+        talisman: '',
+        liturgie: '',
+        sortileges: [],
+        materiel: []
+    }];
 
     constructor() {
         this.objToSend = this.seasonDescribe[2];
