@@ -10,13 +10,10 @@ export class InputValueComponent implements OnInit {
 
     isInEdition = false;
     str = '';
-    islist: false;
-
 
     validate() {
         if (this.str !== '') {
             this.isInEdition = this.isInEdition === false;
-            console.log(this.isInEdition);
         }
     }
 
