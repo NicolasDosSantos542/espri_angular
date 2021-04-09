@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/input-score/input-score.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/input-score/input-score.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/input-score/input-score.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/input-score/input-score.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/relations/relations.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/relations/relations.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/relations/relations.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/relations/relations.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-score/input-score.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-score/input-score.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/health/health.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/health/health.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,7 @@
       <workItem from="1617800620425" duration="3553000" />
       <workItem from="1617865057368" duration="5702000" />
       <workItem from="1617906560361" duration="1101000" />
-      <workItem from="1617952104941" duration="8960000" />
+      <workItem from="1617952104941" duration="9298000" />
     </task>
     <servers />
   </component>
