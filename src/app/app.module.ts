@@ -30,6 +30,7 @@ import { SeasonChoiceComponent } from './components/season-choice/season-choice.
 import { InputLongTextComponent } from './components/input-long-text/input-long-text.component';
 import { InputListContentComponent } from './components/input-list-content/input-list-content.component';
 import { InputScoreComponent } from './components/input-score/input-score.component';
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,7 @@ import { InputScoreComponent } from './components/input-score/input-score.compon
     FormsModule,
     ClickOutsideModule,
   ],
-  providers: [],
+  providers: [ CookieService ],
   bootstrap: [AppComponent],
   exports: [
     RouterModule

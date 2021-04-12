@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {CookieService} from 'ngx-cookie-service';
 
 @Component({
     selector: 'app-home-page',
@@ -133,12 +134,20 @@ export class HomePageComponent implements OnInit {
         sortileges: [],
         materiel: []
     }];
+    cookieValue: string;
 
-    constructor() {
+
+    constructor(private cookieService: CookieService) {
+
         this.objToSend = this.seasonDescribe[2];
+
+
     }
 
     ngOnInit(): void {
+        // this.cookieService.set( 'Test', 'Hello World' );
+        this.cookieValue = this.cookieService.get('Test');
+        console.log(this.cookieValue);
     }
 
     changeSeason(season) {
