@@ -68,7 +68,7 @@ import { CharactersComponent } from './components/characters/characters.componen
     FormsModule,
     ClickOutsideModule,
   ],
-  providers: [ CookieService ],
+  providers: [ CookieService , CharactersComponent],
   bootstrap: [AppComponent],
   exports: [
     RouterModule
