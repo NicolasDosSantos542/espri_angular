@@ -31,6 +31,7 @@ import { InputLongTextComponent } from './components/input-long-text/input-long-
 import { InputListContentComponent } from './components/input-list-content/input-list-content.component';
 import { InputScoreComponent } from './components/input-score/input-score.component';
 import { CookieService } from 'ngx-cookie-service';
+import { CharactersComponent } from './components/characters/characters.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { CookieService } from 'ngx-cookie-service';
     InputLongTextComponent,
     InputListContentComponent,
     InputScoreComponent,
+    CharactersComponent,
   ],
   imports: [
     RouterModule.forRoot(appRouteList),

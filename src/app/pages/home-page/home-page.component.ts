@@ -111,29 +111,6 @@ export class HomePageComponent implements OnInit {
         id: undefined,
         name: undefined
     };
-    personnages: [{
-        idSaison: '',
-        nom: '',
-        lignee: '',
-        age: '',
-        role: '',
-        talents: [],
-        atouts: [],
-        defauts: [],
-        harmonie: '',
-        rupture: '',
-        sante: [{ etat: '', type: '', intensite: '' }],
-        relations: [{ nom: '', nature: '', resonnance: [] }]
-        hiver: '',
-        printemps: '',
-        ete: '',
-        automne: '',
-        devotion: '',
-        talisman: '',
-        liturgie: '',
-        sortileges: [],
-        materiel: []
-    }];
     cookieValue: string;
 
 
