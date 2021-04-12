@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {CharactersComponent} from "../../characters/characters.component";
 
 @Component({
     selector: 'app-infos',
@@ -14,7 +15,15 @@ export class InfosComponent implements OnInit {
     ngOnInit(): void {
     }
 
-    fillArray(bob: string) {
-        console.log(bob);
+    fillArray(value, attribute) {
+        const char = CharactersComponent.characters[0];
+        if (attribute === 'nom') {
+            char.nom = value;
+        } else if (attribute === 'lignee') {
+            char.lignee = value;
+        } else if (attribute === 'age') {
+            char.age = value;
+        }
+        console.log(char);
     }
 }

@@ -1,6 +1,14 @@
 <div class="header-container">
-<div class="header-content" *ngFor="let value of idValues">
-
-   {{value}}: <app-input-value (inputValueToEmit)="fillArray($event)" [value]="value"></app-input-value>
-</div>
+    <div class="header-content">
+        Nom :
+        <app-input-value (inputValueToEmit)="fillArray($event,'nom')" ></app-input-value>
+    </div>
+    <div class="header-content">
+        Lignée :
+        <app-input-value (inputValueToEmit)="fillArray($event, 'lignee')"></app-input-value>
+    </div>
+    <div class="header-content">
+        Age :
+        <app-input-value (inputValueToEmit)="fillArray($event, 'age')"></app-input-value>
+    </div>
 </div>
