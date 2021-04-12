@@ -14,4 +14,7 @@ export class InfosComponent implements OnInit {
     ngOnInit(): void {
     }
 
+    fillArray(bob: string) {
+        console.log(bob);
+    }
 }

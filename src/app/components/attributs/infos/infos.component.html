@@ -1,6 +1,6 @@
 <div class="header-container">
 <div class="header-content" *ngFor="let value of idValues">
 
-   {{value}}: <app-input-value ></app-input-value>
+   {{value}}: <app-input-value (inputValueToEmit)="fillArray($event)" [value]="value"></app-input-value>
 </div>
 </div>

@@ -124,7 +124,6 @@ export class HomePageComponent implements OnInit {
     ngOnInit(): void {
         // this.cookieService.set( 'Test', 'Hello World' );
         this.cookieValue = this.cookieService.get('Test');
-        console.log(this.cookieValue);
     }
 
     changeSeason(season) {

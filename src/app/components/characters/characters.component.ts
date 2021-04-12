@@ -8,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 export class CharactersComponent implements OnInit {
     static characters =  [{
         idSaison: '',
-        nom: '',
+        nom: 'poulet',
         lignee: '',
         age: '',
         role: '',
@@ -27,7 +27,7 @@ export class CharactersComponent implements OnInit {
         talisman: '',
         liturgie: '',
         sortileges: [],
-        materiel: []
+        materiel: [],
     }];
     static random = 'toto';
 
