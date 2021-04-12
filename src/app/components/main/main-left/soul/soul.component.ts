@@ -6,8 +6,8 @@ import {Component, Input, OnChanges, OnInit} from '@angular/core';
     styleUrls: ['./soul.component.css', '../main-left.component.css']
 })
 export class SoulComponent implements OnInit, OnChanges{
-    @Input() seasonDescribe;
-    soulArray =[
+    @Input() currentSeason;
+    soulArray = [
         {
             typeTitle: '',
             type: '',
@@ -24,16 +24,15 @@ export class SoulComponent implements OnInit, OnChanges{
     }
 
     ngOnInit(): void {
-        console.log(this.seasonDescribe);
         this.soulArray = [
             {
                 typeTitle: 'Essence',
-                type: this.seasonDescribe.essence,
+                type: this.currentSeason.essence,
                 typeScore: 'Harmonie'
             },
             {
                 typeTitle: 'Anathème',
-                type: this.seasonDescribe.anatheme,
+                type: this.currentSeason.anatheme,
                 typeScore: 'Rupture'
             }
         ];
@@ -43,12 +42,12 @@ export class SoulComponent implements OnInit, OnChanges{
         this.soulArray = [
             {
                 typeTitle: 'essence',
-                type: this.seasonDescribe.essence,
+                type: this.currentSeason.essence,
                 typeScore: 'harmonie'
             },
             {
                 typeTitle: 'anatheme',
-                type: this.seasonDescribe.anatheme,
+                type: this.currentSeason.anatheme,
                 typeScore: 'Anathème'
             }
         ];

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Merienda";
+    font-style: normal;
+    src: url('Merienda-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Merienda";
+    font-weight: bold;
+    src: url('/assets/font/Merienda-Bold.ttf');
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body {
+    font-family: "Merienda", serif;
+    font-style: normal;
+    line-height: 1;
+}
+
+input{
+    border : none !important;
+    background-color: #f2f8fa;
+    outline : none;
+
+}
+
+.main {
+    padding-top: 10px;
+    display: flex;
+}
+
+.magie-materiel {
+    display: flex;
+
+}
+
+#footer {
+    height: 100%;
+}
+
+
+
+

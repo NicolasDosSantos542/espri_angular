@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
     styleUrls: ['./main-left.component.css']
 })
 export class MainLeftComponent implements OnInit {
-    @Input() seasonDescribe;
+    @Input() currentSeason;
     constructor() {
     }
 

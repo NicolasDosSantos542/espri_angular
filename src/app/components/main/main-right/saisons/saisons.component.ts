@@ -46,7 +46,5 @@ export class SaisonsComponent implements OnInit {
 
     onSeasonClick(season) {
         season.score = prompt('quel est votre score?');
-        console.log(season.score);
-        console.log(this.seasonArray[0]);
     }
 }

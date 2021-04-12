@@ -17,7 +17,6 @@ export class InputListComponent implements OnInit {
         this.isInEdition = this.isInEdition === false;
         this.listValues.push(value);
         this.str = '';
-        console.log(this.listValues);
     }
 
     constructor() {
