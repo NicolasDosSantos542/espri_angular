@@ -16,12 +16,15 @@ export class InfosComponent implements OnInit {
     }
 
     fillArray(value, attribute) {
-        const char = CharactersComponent.characters[0];
+        const char = CharactersComponent.currentCharacter;
         if (attribute === 'nom') {
+            // @ts-ignore
             char.nom = value;
         } else if (attribute === 'lignee') {
+            // @ts-ignore
             char.lignee = value;
         } else if (attribute === 'age') {
+            // @ts-ignore
             char.age = value;
         }
         console.log(char);

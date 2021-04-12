@@ -1,4 +1,5 @@
 import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
+import {CharactersComponent} from '../characters/characters.component';
 @Component({
   selector: 'app-season-choice',
   templateUrl: './season-choice.component.html',
