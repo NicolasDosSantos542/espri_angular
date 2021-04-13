@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {CharactersComponent} from '../characters/characters.component';
 
 @Component({
     selector: 'app-input-circle',
