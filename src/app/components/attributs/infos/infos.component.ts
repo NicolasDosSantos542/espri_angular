@@ -16,7 +16,8 @@ export class InfosComponent implements OnInit {
     }
 
     fillArray(value, attribute) {
-        const char = CharactersComponent.currentCharacter;
+        const X = CharactersComponent.currentCharacterId;
+        const char = CharactersComponent.characters[X];
         if (attribute === 'nom') {
             // @ts-ignore
             char.nom = value;
@@ -27,6 +28,6 @@ export class InfosComponent implements OnInit {
             // @ts-ignore
             char.age = value;
         }
-        console.log(char);
+        localStorage.setItem('char', JSON.stringify(CharactersComponent.characters));
     }
 }

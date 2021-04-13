@@ -6,11 +6,10 @@ import {Component, OnInit} from '@angular/core';
     styleUrls: ['./characters.component.css']
 })
 export class CharactersComponent implements OnInit {
-
-
     static characters = [
         {
             idSaison: 'winter',
+            id: 0,
             nom: '',
             lignee: '',
             age: '',
@@ -33,6 +32,7 @@ export class CharactersComponent implements OnInit {
             materiel: [],
         }, {
             idSaison: 'spring',
+            id: 1,
             nom: '',
             lignee: '',
             age: '',
@@ -55,6 +55,7 @@ export class CharactersComponent implements OnInit {
             materiel: [],
         }, {
             idSaison: 'summer',
+            id: 2,
             nom: '',
             lignee: '',
             age: '',
@@ -77,6 +78,7 @@ export class CharactersComponent implements OnInit {
             materiel: [],
         }, {
             idSaison: 'autumn',
+            id: 3,
             nom: '',
             lignee: '',
             age: '',
@@ -99,6 +101,7 @@ export class CharactersComponent implements OnInit {
             materiel: [],
         }, {
             idSaison: 'time',
+            id: 4,
             nom: '',
             lignee: '',
             age: '',
@@ -120,13 +123,14 @@ export class CharactersComponent implements OnInit {
             sortileges: [],
             materiel: [],
         }];
-    static currentSeasonId: string;
+    static random = 'toto';
 
-    static currentCharacter: object;
+    static currentCharacterId: number;
 
     constructor() {
 
     }
+
 
     ngOnInit(): void {
 

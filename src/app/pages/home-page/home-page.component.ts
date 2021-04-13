@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CookieService} from 'ngx-cookie-service';
 import {CharactersComponent} from '../../components/characters/characters.component';
 
@@ -13,6 +13,7 @@ export class HomePageComponent implements OnInit {
         {
             name: 'hiver',
             id: 'winter',
+            numberId: 0,
             token: 'Token_Hiver_small.png',
             maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma vision. Prodigue-les au Monde, soigne ses lésions.',
             keywords: [
@@ -33,6 +34,7 @@ export class HomePageComponent implements OnInit {
         {
             name: 'Printemps',
             id: 'spring',
+            numberId: 1,
             token: 'Token_Printemps_small.png',
             maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, ' +
                 'deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma sapience.' +
@@ -55,6 +57,7 @@ export class HomePageComponent implements OnInit {
         {
             name: 'été',
             id: 'summer',
+            numberId: 2,
             token: 'Token_Ete_small.png',
             maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix et ma ferveur. Prodigue-les au Monde, rends-lui sa saveur.',
             keywords: [' Vitesse', ' Lumière', ' Emotion', ' Feu', ' Empathie', ' Interaction ', ' Puissance ', ' Passion ', ' Beau ', ' Sacrifice'],
@@ -65,6 +68,7 @@ export class HomePageComponent implements OnInit {
         {
             name: 'Automne',
             id: 'autumn',
+            numberId: 3,
             token: 'Token_Automne_small.png',
             maxim: 'Par ce présent, deviens mon enfant. Par ce cadeau, ' +
                 'deviens mon hérault. Par ce don, sois Gardien de ma Saison Porte en ton âme ma Voix, mon savoir-faire.' +
@@ -87,6 +91,7 @@ export class HomePageComponent implements OnInit {
         {
             name: 'temps',
             id: 'time',
+            numberId: 4,
             token: 'Token_Temps_small.png',
             maxim: 'Dévote Prêtresse entendant notre Voix, ' +
                 'Le Temps devient Symbole de ta Foi. Avec les Gardiens, ' +
@@ -110,23 +115,25 @@ export class HomePageComponent implements OnInit {
     ];
     objToSend = {
         id: undefined,
-        name: undefined
+        name: undefined,
+        numberId: undefined
     };
     cookieValue: string;
 
 
-    constructor(private cookieService: CookieService) {
-
+    constructor() {
+        console.log(CharactersComponent.characters);
         this.objToSend = this.seasonDescribe[0];
-        CharactersComponent.currentSeasonId = this.objToSend.id;
-        CharactersComponent.currentCharacter = CharactersComponent.characters[0];
+        CharactersComponent.currentCharacterId = 0;
+
+        this.objToSend = this.seasonDescribe[2];
+
 
     }
 
     ngOnInit(): void {
         // this.cookieService.set( 'Test', 'Hello World' );
         this.cookieValue = this.cookieService.get('Test');
-
     }
 
 
@@ -134,10 +141,6 @@ export class HomePageComponent implements OnInit {
         console.log(CharactersComponent.currentSeasonId);
 
         this.objToSend = this.seasonDescribe.find(data => data.id === season);
-        CharactersComponent.currentSeasonId = this.objToSend.id;
-       // CharactersComponent.currentCharacter = CharactersComponent.characters.find(data => data.idSaison = season);
-        console.log(CharactersComponent.currentCharacter);
-        console.log(CharactersComponent.characters);
     }
 }
 

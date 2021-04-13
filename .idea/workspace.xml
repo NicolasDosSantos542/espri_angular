@@ -5,10 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-circle/input-circle.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/season-choice/season-choice.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/season-choice/season-choice.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/app/components/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+>>>>>>> localstorage
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
