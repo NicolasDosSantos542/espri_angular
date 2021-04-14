@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/services/save.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/save.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/user.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/espri/main-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/espri/main-es2015.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/save.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/save.service.ts" afterDir="false" />
     </list>
-    <list id="48c18fde-5f4e-48ef-96dc-21f5a50c17d1" name="Changes by cryfter" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/services/test.service.ts" beforeDir="false" />
-    </list>
+    <list id="48c18fde-5f4e-48ef-96dc-21f5a50c17d1" name="Changes by cryfter" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +110,7 @@
       <workItem from="1618316918354" duration="2000" />
       <workItem from="1618316940482" duration="4513000" />
       <workItem from="1618323924085" duration="2633000" />
-      <workItem from="1618384535372" duration="6096000" />
+      <workItem from="1618384535372" duration="8342000" />
     </task>
     <servers />
   </component>

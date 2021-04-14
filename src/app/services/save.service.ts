@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import {CharactersComponent} from '../components/characters/characters.component';
+import {UserService} from './user.service';
 
 @Injectable({
     providedIn: 'root'
@@ -9,7 +10,7 @@ export class SaveService {
     currentID = CharactersComponent.currentCharacterId;
     current = CharactersComponent.characters[this.currentID];
 
-    constructor() {
+    constructor(private user: UserService) {
     }
 
     initPage() {

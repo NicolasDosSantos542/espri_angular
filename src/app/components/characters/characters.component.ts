@@ -123,7 +123,6 @@ export class CharactersComponent implements OnInit {
             sortileges: [],
             materiel: [],
         }];
-    static random = 'toto';
 
     static currentCharacterId: number;
     bob = CharactersComponent.currentCharacterId;
