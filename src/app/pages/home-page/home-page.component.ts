@@ -124,7 +124,9 @@ export class HomePageComponent implements OnInit {
 
     constructor(private save: SaveService, private user: UserService) {
         this.objToSend = this.seasonDescribe[0];
+/*
         CharactersComponent.currentCharacterId = 0;
+*/
 
 
     }

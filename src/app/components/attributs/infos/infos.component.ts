@@ -8,7 +8,9 @@ import {CharactersComponent} from '../../characters/characters.component';
 })
 export class InfosComponent implements OnInit {
     idValues = ['nom', 'lignee', 'age'];
+/*
     current = CharactersComponent.characters[CharactersComponent.currentCharacterId];
+*/
 
     constructor() {
 
@@ -19,15 +21,15 @@ export class InfosComponent implements OnInit {
     }
 
     fillArray(value, attribute) {
-        const X = CharactersComponent.currentCharacterId;
-        console.log(X);
-        const char = CharactersComponent.characters[X];
-        if (attribute === 'nom') {
-            char.nom = value;
-        } else if (attribute === 'lignee') {
-            char.lignee = value;
-        } else if (attribute === 'age') {
-            char.age = value;
-        }
+        /* console.log(X);
+         const char = CharactersComponent.characters[X];
+         if (attribute === 'nom') {
+             char.nom = value;
+         } else if (attribute === 'lignee') {
+             char.lignee = value;
+         } else if (attribute === 'age') {
+             char.age = value;
+         }*/
+        console.log(value + '  ' + attribute);
     }
 }

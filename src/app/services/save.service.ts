@@ -6,32 +6,31 @@ import {UserService} from './user.service';
     providedIn: 'root'
 })
 export class SaveService {
-    characters = CharactersComponent.characters;
-    currentID = CharactersComponent.currentCharacterId;
-    current = CharactersComponent.characters[this.currentID];
+    character = CharactersComponent.character;
 
     constructor(private user: UserService) {
     }
 
     initPage() {
-        if ('char' || 'bob' in localStorage) {
+        if ('winter-char' || 'spring-char' || 'summer-char' || 'autumn-char' || 'time-char' in localStorage) {
             console.log(localStorage);
-            CharactersComponent.characters = JSON.parse(localStorage.getItem('char'));
+            CharactersComponent.character = JSON.parse(localStorage.getItem('char'));
         } else {
-            localStorage.setItem('bob', 'coucou');
+            localStorage.setItem('winter-char', JSON.stringify(this.character));
             console.log(localStorage);
 
         }
     }
 
     saveCharacter(season) {
-        localStorage.setItem(season + 'char', JSON.stringify(CharactersComponent.characters));
+        localStorage.setItem(season + '-char', JSON.stringify(CharactersComponent.character));
 
     }
 
     clearDatas() {
         if (confirm('ceci va définitivement supprimer vos personnages, êtes vous sûr.e?')) {
             localStorage.clear();
+            console.log(localStorage);
         }
     }
 }
