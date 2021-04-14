@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {CookieService} from 'ngx-cookie-service';
-import {CharactersComponent} from "../../components/characters/characters.component";
+import {CharactersComponent} from '../../components/characters/characters.component';
+import {SaveService} from '../../services/save.service';
 
 @Component({
     selector: 'app-home-page',
@@ -120,32 +121,29 @@ export class HomePageComponent implements OnInit {
     };
     cookieValue: string;
 
-
-    constructor() {
-        console.log(CharactersComponent.characters);
+    constructor(private save: SaveService) {
         this.objToSend = this.seasonDescribe[0];
         CharactersComponent.currentCharacterId = 0;
+
 
     }
 
     ngOnInit(): void {
         /*this.cookieService.set( 'Test', 'Hello World' );
         this.cookieValue = this.cookieService.get('Test');*/
-        if (localStorage.length !== 0) {
-            console.log(localStorage);
-            CharactersComponent.characters = JSON.parse(localStorage.getItem('char'));
-            console.log('youp');
-            console.log(CharactersComponent.characters);
-        }
-        // localStorage.setItem('char', JSON.stringify(CharactersComponent.characters));
+        this.save.initPage();
     }
 
     changeSeason(season) {
         this.objToSend = this.seasonDescribe.find(data => data.id === season);
-        CharactersComponent.currentCharacterId = this.objToSend.numberId;
-        console.log(CharactersComponent.currentCharacterId);
-        console.log(CharactersComponent.characters);
+        /* console.log(CharactersComponent.currentCharacterId);
+         console.log(CharactersComponent.characters);*/
+        /*  googler  ngonmodified()*/
 
+    }
+
+    delete() {
+        this.save.clearDatas();
     }
 }
 

@@ -126,6 +126,7 @@ export class CharactersComponent implements OnInit {
     static random = 'toto';
 
     static currentCharacterId: number;
+    bob = CharactersComponent.currentCharacterId;
 
     constructor() {
 

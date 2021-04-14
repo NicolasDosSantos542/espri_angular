@@ -8,17 +8,26 @@ import {CharactersComponent} from '../characters/characters.component';
 })
 export class InputValueComponent implements OnInit {
     @Output() inputValueToEmit = new EventEmitter<string>();
-    isInEdition = false;
+    @Input() value: string;
+    isInEdition = true;
+    // @ts-ignore
     str = '';
 
+    constructor() {
+    }
+
     validate(str) {
+
         if (this.str !== '') {
             this.isInEdition = this.isInEdition === false;
-            this.inputValueToEmit.emit(str);
+            this.value = str;
+            this.inputValueToEmit.emit(this.value);
         }
     }
 
-    constructor() {
+    onClick() {
+
+        this.isInEdition = this.isInEdition === false;
     }
 
     ngOnInit(): void {

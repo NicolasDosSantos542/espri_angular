@@ -490,7 +490,6 @@ class MainComponent {
     constructor() {
     }
     ngOnInit() {
-        console.log(this.currentSeason);
     }
 }
 MainComponent.ɵfac = function MainComponent_Factory(t) { return new (t || MainComponent)(); };

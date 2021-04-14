@@ -8,4 +8,7 @@ input[type=text] {
 .input-value
 {
 margin-top: 0;
+    min-width: 50px;
+    min-height: 1em;
+    background-color: #9a99ff;
 }

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CharactersComponent} from "../../characters/characters.component";
+import {CharactersComponent} from '../../characters/characters.component';
 
 @Component({
     selector: 'app-infos',
@@ -7,16 +7,20 @@ import {CharactersComponent} from "../../characters/characters.component";
     styleUrls: ['./infos.component.css', '../attributs.component.css']
 })
 export class InfosComponent implements OnInit {
-    idValues = ['Nom', 'Lignée', 'Age'];
+    idValues = ['nom', 'lignee', 'age'];
+    current = CharactersComponent.characters[CharactersComponent.currentCharacterId];
 
     constructor() {
+
     }
 
     ngOnInit(): void {
+
     }
 
     fillArray(value, attribute) {
         const X = CharactersComponent.currentCharacterId;
+        console.log(X);
         const char = CharactersComponent.characters[X];
         if (attribute === 'nom') {
             char.nom = value;
@@ -25,6 +29,5 @@ export class InfosComponent implements OnInit {
         } else if (attribute === 'age') {
             char.age = value;
         }
-        localStorage.setItem('char', JSON.stringify(CharactersComponent.characters));
     }
 }
