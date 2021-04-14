@@ -130,16 +130,11 @@ export class HomePageComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        /*this.cookieService.set( 'Test', 'Hello World' );
-        this.cookieValue = this.cookieService.get('Test');*/
         this.save.initPage();
     }
 
     changeSeason(season) {
         this.objToSend = this.seasonDescribe.find(data => data.id === season);
-        /* console.log(CharactersComponent.currentCharacterId);
-         console.log(CharactersComponent.characters);*/
-        /*  googler  ngonmodified()*/
 
     }
 

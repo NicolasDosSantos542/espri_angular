@@ -125,7 +125,6 @@ export class CharactersComponent implements OnInit {
         }];
 
     static currentCharacterId: number;
-    bob = CharactersComponent.currentCharacterId;
 
     constructor() {
 

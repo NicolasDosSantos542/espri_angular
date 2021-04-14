@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/save.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/save.service.ts" afterDir="false" />
     </list>
     <list id="48c18fde-5f4e-48ef-96dc-21f5a50c17d1" name="Changes by cryfter" comment="" />
     <option name="SHOW_DIALOG" value="false" />
