@@ -8,8 +8,8 @@ import {Component, OnInit} from '@angular/core';
 export class CharactersComponent implements OnInit {
     static character =
         {
-            idSaison: 'winter',
-            id: 0,
+            idSaison: '',
+            id: '',
             nom: '',
             lignee: '',
             age: '',

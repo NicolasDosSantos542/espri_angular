@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="" />
+    <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/season-choice/season-choice.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/season-choice/season-choice.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/save.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/save.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/user.service.ts" afterDir="false" />
+    </list>
     <list id="48c18fde-5f4e-48ef-96dc-21f5a50c17d1" name="Changes by cryfter" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +113,7 @@
       <workItem from="1618323924085" duration="2633000" />
       <workItem from="1618384535372" duration="8342000" />
       <workItem from="1618408704713" duration="24000" />
-      <workItem from="1618470289376" duration="1710000" />
+      <workItem from="1618470289376" duration="6622000" />
     </task>
     <servers />
   </component>

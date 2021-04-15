@@ -8,51 +8,53 @@ export class UserService {
 
     constructor() {
     }
-displayDatas(element){
-    const char = CharactersComponent.character;
-    switch (element) {
-        case 'nom':
-            return char.nom;
-        case 'lignee':
-            return char.lignee;
-        case 'age':
-            return char.age;
-        case 'role':
-            return char.role;
-        case 'talents':
-            return char.talents;
-        case 'atouts':
-            return char.atouts;
-        case 'defauts':
-            return char.defauts;
-        case 'harmonie':
-            return char.harmonie;
-        case 'rupture':
-            return char.rupture;
-        case 'sante':
-            return char.sante;
-        case 'relations':
-            return char.relations;
-        case 'hiver':
-            return char.hiver;
-        case 'printemps':
-            return char.printemps;
-        case 'ete':
-            return char.ete;
-        case 'automne':
-            return char.automne;
-        case 'devotion':
-            return char.devotion;
-        case 'talisman':
-            return char.talisman;
-        case 'liturgie':
-            return char.liturgie;
-        case 'sortileges':
-            return char.sortileges;
-        case 'materiel':
-            return char.materiel;
+
+    displayDatas(element) {
+        const char = CharactersComponent.character;
+        switch (element) {
+            case 'nom':
+                return char.nom;
+            case 'lignee':
+                return char.lignee;
+            case 'age':
+                return char.age;
+            case 'role':
+                return char.role;
+            case 'talents':
+                return char.talents;
+            case 'atouts':
+                return char.atouts;
+            case 'defauts':
+                return char.defauts;
+            case 'harmonie':
+                return char.harmonie;
+            case 'rupture':
+                return char.rupture;
+            case 'sante':
+                return char.sante;
+            case 'relations':
+                return char.relations;
+            case 'hiver':
+                return char.hiver;
+            case 'printemps':
+                return char.printemps;
+            case 'ete':
+                return char.ete;
+            case 'automne':
+                return char.automne;
+            case 'devotion':
+                return char.devotion;
+            case 'talisman':
+                return char.talisman;
+            case 'liturgie':
+                return char.liturgie;
+            case 'sortileges':
+                return char.sortileges;
+            case 'materiel':
+                return char.materiel;
+        }
     }
-}
+
     saveDatas(element, value) {
         const char = CharactersComponent.character;
         switch (element) {
@@ -118,4 +120,7 @@ displayDatas(element){
                 break;
         }
     }
+
 }
+
+
