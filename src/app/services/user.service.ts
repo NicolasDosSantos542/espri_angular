@@ -1,12 +1,13 @@
 import {Injectable} from '@angular/core';
 import {CharactersComponent} from '../components/characters/characters.component';
+import {SaveService} from './save.service';
 
 @Injectable({
     providedIn: 'root'
 })
 export class UserService {
 
-    constructor() {
+    constructor(private save: SaveService) {
     }
 
     displayDatas(element) {
@@ -55,11 +56,12 @@ export class UserService {
         }
     }
 
-    saveDatas(element, value) {
+    setData(element, value) {
         const char = CharactersComponent.character;
         switch (element) {
             case 'nom':
                 char.nom = value;
+                console.log(char);
                 break;
             case 'lignee':
                 char.lignee = value;
@@ -119,6 +121,8 @@ export class UserService {
                 char.materiel = value;
                 break;
         }
+        console.log(char);
+        this.save.saveCharacter(char.idSaison);
     }
 
 }
