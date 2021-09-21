@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {CharactersComponent} from "../../characters/characters.component";
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
+import {CharactersComponent} from '../../characters/characters.component';
 
 @Component({
     selector: 'app-infos',
@@ -7,27 +7,25 @@ import {CharactersComponent} from "../../characters/characters.component";
     styleUrls: ['./infos.component.css', '../attributs.component.css']
 })
 export class InfosComponent implements OnInit {
-    idValues = ['Nom', 'Lignée', 'Age'];
+    idValues = ['nom', 'lignee', 'age'];
+    @Input() currentSeason: any;
 
     constructor() {
     }
 
     ngOnInit(): void {
+
     }
 
     fillArray(value, attribute) {
-        const X = CharactersComponent.currentCharacterId;
-        const char = CharactersComponent.characters[X];
-        if (attribute === 'nom') {
-            // @ts-ignore
-            char.nom = value;
-        } else if (attribute === 'lignee') {
-            // @ts-ignore
-            char.lignee = value;
-        } else if (attribute === 'age') {
-            // @ts-ignore
-            char.age = value;
-        }
-        localStorage.setItem('char', JSON.stringify(CharactersComponent.characters));
+        /* console.log(X);
+         const char = CharactersComponent.characters[X];
+         if (attribute === 'nom') {
+             char.nom = value;
+         } else if (attribute === 'lignee') {
+             char.lignee = value;
+         } else if (attribute === 'age') {
+             char.age = value;
+         }*/
     }
 }

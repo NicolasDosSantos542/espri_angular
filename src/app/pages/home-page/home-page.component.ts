@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {CookieService} from 'ngx-cookie-service';
 import {CharactersComponent} from '../../components/characters/characters.component';
+import {SaveService} from '../../services/save.service';
+import {UserService} from '../../services/user.service';
 
 @Component({
     selector: 'app-home-page',
@@ -120,27 +122,26 @@ export class HomePageComponent implements OnInit {
     };
     cookieValue: string;
 
-
-    constructor() {
-        console.log(CharactersComponent.characters);
+    constructor(private save: SaveService, private user: UserService) {
         this.objToSend = this.seasonDescribe[0];
+/*
         CharactersComponent.currentCharacterId = 0;
-
-        this.objToSend = this.seasonDescribe[2];
+*/
 
 
     }
 
     ngOnInit(): void {
-        // this.cookieService.set( 'Test', 'Hello World' );
-        this.cookieValue = this.cookieService.get('Test');
+        this.save.initPage();
     }
 
-
     changeSeason(season) {
-        console.log(CharactersComponent.currentSeasonId);
-
         this.objToSend = this.seasonDescribe.find(data => data.id === season);
+
+    }
+
+    delete() {
+        this.save.clearDatas();
     }
 }
 

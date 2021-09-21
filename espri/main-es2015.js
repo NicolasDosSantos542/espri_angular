@@ -490,7 +490,6 @@ class MainComponent {
     constructor() {
     }
     ngOnInit() {
-        console.log(this.currentSeason);
     }
 }
 MainComponent.ɵfac = function MainComponent_Factory(t) { return new (t || MainComponent)(); };
@@ -634,7 +633,6 @@ class HomePageComponent {
         // this.cookieService.set( 'Test', 'Hello World' );
         this.cookieValue = this.cookieService.get('Test');
         this.objToSend = this.seasonDescribe[2];
-        console.log(this.cookieValue);
     }
     ngOnInit() {
     }

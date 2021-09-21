@@ -1,5 +1,5 @@
 import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
-import {CharactersComponent} from '../characters/characters.component';
+import {SaveService} from '../../services/save.service';
 @Component({
   selector: 'app-season-choice',
   templateUrl: './season-choice.component.html',
@@ -9,12 +9,15 @@ export class SeasonChoiceComponent implements OnInit {
   @Input() seasonDescribe;
   @Output() seasonChoice = new EventEmitter<string>();
 
-  constructor() { }
+
+  constructor(private save: SaveService) { }
 
   ngOnInit(): void {
   }
 
   changeSeason(id) {
     this.seasonChoice.emit(id);
+    this.save.changeSeason(id);
+
   }
 }

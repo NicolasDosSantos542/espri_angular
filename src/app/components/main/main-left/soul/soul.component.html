@@ -1,4 +1,5 @@
 <h3>Ame</h3>
+{{bob}}
 <div id="soul">
 
 
@@ -6,7 +7,7 @@
         <p>{{soul.typeTitle}} : {{soul.type}}</p>
         <div class="ame-content">
 
-            <p>{{soul.typeScore}} : <app-input-value  class="harmonie"></app-input-value></p>
+            <p>{{soul.typeScore}} : <app-input-value [value]="soul.typeScore" class="harmonie"></app-input-value></p>
         </div>
     </div>
 

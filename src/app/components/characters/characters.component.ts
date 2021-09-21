@@ -6,10 +6,10 @@ import {Component, OnInit} from '@angular/core';
     styleUrls: ['./characters.component.css']
 })
 export class CharactersComponent implements OnInit {
-    static characters = [
+    static character =
         {
-            idSaison: 'winter',
-            id: 0,
+            idSaison: '',
+            id: '',
             nom: '',
             lignee: '',
             age: '',
@@ -19,7 +19,10 @@ export class CharactersComponent implements OnInit {
             defauts: [],
             harmonie: '',
             rupture: '',
-            sante: [{etat: '', type: '', intensite: ''}],
+            sante: {choque: { type: '', intensite: ''},
+                meurtri: { type: '', intensite: ''},
+                brise: { type: '', intensite: ''},
+            },
             relations: [{nom: '', nature: '', resonnance: []}],
             hiver: '',
             printemps: '',
@@ -30,9 +33,11 @@ export class CharactersComponent implements OnInit {
             liturgie: '',
             sortileges: [],
             materiel: [],
-        }, {
-            idSaison: 'spring',
-            id: 1,
+        };
+    static emptyCharacter =
+        {
+            idSaison: '',
+            id: '',
             nom: '',
             lignee: '',
             age: '',
@@ -42,7 +47,10 @@ export class CharactersComponent implements OnInit {
             defauts: [],
             harmonie: '',
             rupture: '',
-            sante: [{etat: '', type: '', intensite: ''}],
+            sante: {choque: { type: '', intensite: ''},
+                meurtri: { type: '', intensite: ''},
+                brise: { type: '', intensite: ''},
+            },
             relations: [{nom: '', nature: '', resonnance: []}],
             hiver: '',
             printemps: '',
@@ -53,79 +61,7 @@ export class CharactersComponent implements OnInit {
             liturgie: '',
             sortileges: [],
             materiel: [],
-        }, {
-            idSaison: 'summer',
-            id: 2,
-            nom: '',
-            lignee: '',
-            age: '',
-            role: '',
-            talents: [],
-            atouts: [],
-            defauts: [],
-            harmonie: '',
-            rupture: '',
-            sante: [{etat: '', type: '', intensite: ''}],
-            relations: [{nom: '', nature: '', resonnance: []}],
-            hiver: '',
-            printemps: '',
-            ete: '',
-            automne: '',
-            devotion: '',
-            talisman: '',
-            liturgie: '',
-            sortileges: [],
-            materiel: [],
-        }, {
-            idSaison: 'autumn',
-            id: 3,
-            nom: '',
-            lignee: '',
-            age: '',
-            role: '',
-            talents: [],
-            atouts: [],
-            defauts: [],
-            harmonie: '',
-            rupture: '',
-            sante: [{etat: '', type: '', intensite: ''}],
-            relations: [{nom: '', nature: '', resonnance: []}],
-            hiver: '',
-            printemps: '',
-            ete: '',
-            automne: '',
-            devotion: '',
-            talisman: '',
-            liturgie: '',
-            sortileges: [],
-            materiel: [],
-        }, {
-            idSaison: 'time',
-            id: 4,
-            nom: '',
-            lignee: '',
-            age: '',
-            role: '',
-            talents: [],
-            atouts: [],
-            defauts: [],
-            harmonie: '',
-            rupture: '',
-            sante: [{etat: '', type: '', intensite: ''}],
-            relations: [{nom: '', nature: '', resonnance: []}],
-            hiver: '',
-            printemps: '',
-            ete: '',
-            automne: '',
-            devotion: '',
-            talisman: '',
-            liturgie: '',
-            sortileges: [],
-            materiel: [],
-        }];
-    static random = 'toto';
-
-    static currentCharacterId: number;
+        };
 
     constructor() {
 
