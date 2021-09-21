@@ -1,14 +1,7 @@
 <div class="header-container">
-    <div class="header-content">
-        Nom :
-        <!--[value]="current.nom"--><app-input-value  (inputValueToEmit)="fillArray($event,'nom')" ></app-input-value>
+    <div class="header-content" *ngFor="let i of idValues">
+        {{i}} :
+        <app-input-value [currentSeason]="currentSeason" [value]="i"></app-input-value>
     </div>
-    <div class="header-content">
-        Lignée :
-        <!--[value]="current.lignee"--><app-input-value  (inputValueToEmit)="fillArray($event, 'lignee')"></app-input-value>
-    </div>
-    <div class="header-content">
-        Age :
-       <!-- [value]="current.age"--> <app-input-value (inputValueToEmit)="fillArray($event, 'age')"></app-input-value>
-    </div>
+<div></div>
 </div>

@@ -19,7 +19,10 @@ export class CharactersComponent implements OnInit {
             defauts: [],
             harmonie: '',
             rupture: '',
-            sante: [{etat: '', type: '', intensite: ''}],
+            sante: {choque: { type: '', intensite: ''},
+                meurtri: { type: '', intensite: ''},
+                brise: { type: '', intensite: ''},
+            },
             relations: [{nom: '', nature: '', resonnance: []}],
             hiver: '',
             printemps: '',
@@ -31,7 +34,34 @@ export class CharactersComponent implements OnInit {
             sortileges: [],
             materiel: [],
         };
-
+    static emptyCharacter =
+        {
+            idSaison: '',
+            id: '',
+            nom: '',
+            lignee: '',
+            age: '',
+            role: '',
+            talents: [],
+            atouts: [],
+            defauts: [],
+            harmonie: '',
+            rupture: '',
+            sante: {choque: { type: '', intensite: ''},
+                meurtri: { type: '', intensite: ''},
+                brise: { type: '', intensite: ''},
+            },
+            relations: [{nom: '', nature: '', resonnance: []}],
+            hiver: '',
+            printemps: '',
+            ete: '',
+            automne: '',
+            devotion: '',
+            talisman: '',
+            liturgie: '',
+            sortileges: [],
+            materiel: [],
+        };
 
     constructor() {
 

@@ -26,14 +26,12 @@ export class SaveService {
         if (element + '-char' in localStorage) {
             CharactersComponent.character = CharactersComponent.emptyCharacter;
             CharactersComponent.character = JSON.parse(localStorage.getItem(element + '-char'));
-            console.log(CharactersComponent.character);
         }
+
     }
 
     saveCharacter(season) {
-        console.log(season);
         localStorage.setItem(season + '-char', JSON.stringify(CharactersComponent.character));
-        console.log(localStorage);
 
     }
 
@@ -41,7 +39,6 @@ export class SaveService {
         if (confirm('ceci va définitivement supprimer vos personnages, êtes vous sûr.e?')) {
             localStorage.clear();
             location.reload();
-            console.log(localStorage);
         }
     }
 }

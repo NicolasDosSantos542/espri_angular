@@ -1,4 +1,5 @@
 import {Component, Input, OnChanges, OnInit} from '@angular/core';
+import {CharactersComponent} from '../../../characters/characters.component';
 
 @Component({
     selector: 'app-soul',
@@ -19,6 +20,7 @@ export class SoulComponent implements OnInit, OnChanges{
             typeScore: ''
         }
     ];
+    bob = CharactersComponent.character.idSaison;
 
     constructor() {
     }
@@ -26,12 +28,12 @@ export class SoulComponent implements OnInit, OnChanges{
     ngOnInit(): void {
         this.soulArray = [
             {
-                typeTitle: 'Essence',
+                typeTitle: 'essence',
                 type: this.currentSeason.essence,
                 typeScore: 'Harmonie'
             },
             {
-                typeTitle: 'Anathème',
+                typeTitle: 'anatheme',
                 type: this.currentSeason.anatheme,
                 typeScore: 'Rupture'
             }
@@ -48,7 +50,7 @@ export class SoulComponent implements OnInit, OnChanges{
             {
                 typeTitle: 'anatheme',
                 type: this.currentSeason.anatheme,
-                typeScore: 'Anathème'
+                typeScore: 'Rupture'
             }
         ];
     }

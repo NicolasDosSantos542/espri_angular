@@ -61,7 +61,6 @@ export class UserService {
         switch (element) {
             case 'nom':
                 char.nom = value;
-                console.log(char);
                 break;
             case 'lignee':
                 char.lignee = value;
@@ -121,7 +120,6 @@ export class UserService {
                 char.materiel = value;
                 break;
         }
-        console.log(char);
         this.save.saveCharacter(char.idSaison);
     }
 

@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import {CharactersComponent} from '../../characters/characters.component';
 
 @Component({
@@ -8,12 +8,9 @@ import {CharactersComponent} from '../../characters/characters.component';
 })
 export class InfosComponent implements OnInit {
     idValues = ['nom', 'lignee', 'age'];
-/*
-    current = CharactersComponent.characters[CharactersComponent.currentCharacterId];
-*/
+    @Input() currentSeason: any;
 
     constructor() {
-
     }
 
     ngOnInit(): void {
@@ -30,6 +27,5 @@ export class InfosComponent implements OnInit {
          } else if (attribute === 'age') {
              char.age = value;
          }*/
-        console.log(value + '  ' + attribute);
     }
 }

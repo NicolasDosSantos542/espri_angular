@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
     styleUrls: ['./role-et-talent.component.css', '../attributs.component.css']
 })
 export class RoleEtTalentComponent implements OnInit {
-    roleValues = ['Rôle', 'Talent'];
+    roleValues = ['role', 'talent'];
 
     constructor() {
     }

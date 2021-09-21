@@ -1,8 +1,7 @@
     <label>
-        <input  *ngIf="!isInEdition" (keyup.enter)="validate(str)"    [(ngModel)]="str" type="text"/>
+        <input  *ngIf="!isInEdition" (keyup.enter)="validate(str)"  [(ngModel)]="str"  type="text"/>
     </label>
-
-    <p class="input-value" *ngIf="isInEdition" (click)="onClick()">{{value}}</p>
+    <p class="input-value" *ngIf="isInEdition"  (click)="onClick()">{{liveData}}</p>
 
 
 
