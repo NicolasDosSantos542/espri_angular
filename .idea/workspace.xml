@@ -3,9 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="1c89f4e4-cdcc-48d8-ba99-adce3ff35e78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/espri/main-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/espri/main-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/espri/main-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/espri/main-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/attributs.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/infos/infos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/attributs/role-et-talent/role-et-talent.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/characters/characters.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/input-value/input-value.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/main/main-left/soul/soul.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/save.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/save.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/user.service.ts" afterDir="false" />
     </list>
+    <list id="48c18fde-5f4e-48ef-96dc-21f5a50c17d1" name="Changes by cryfter" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,23 +44,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ESPRI_FdP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/components/input" />
+      <recent name="$PROJECT_DIR$/src/app/services" />
       <recent name="$PROJECT_DIR$/src/app/components" />
       <recent name="$PROJECT_DIR$/src/app/components/footer" />
       <recent name="$PROJECT_DIR$/src/app/components/attributs" />
-      <recent name="$PROJECT_DIR$/src/app/footer" />
-      <recent name="$PROJECT_DIR$/src/app/components/main/main-right" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -102,11 +120,60 @@
       <workItem from="1617906560361" duration="1101000" />
       <workItem from="1617952104941" duration="9836000" />
       <workItem from="1618212339370" duration="2797000" />
+      <workItem from="1618219233661" duration="4413000" />
+      <workItem from="1618224359612" duration="1569000" />
+      <workItem from="1618316918354" duration="2000" />
+      <workItem from="1618316940482" duration="4513000" />
+      <workItem from="1618323924085" duration="2633000" />
+      <workItem from="1618384535372" duration="8342000" />
+      <workItem from="1618408704713" duration="24000" />
+      <workItem from="1618470289376" duration="23326000" />
+      <workItem from="1618558772894" duration="3981000" />
+      <workItem from="1618578636009" duration="93000" />
+      <workItem from="1618818660377" duration="14000" />
+      <workItem from="1618832544444" duration="765000" />
+      <workItem from="1619104166285" duration="46000" />
+      <workItem from="1619769222908" duration="1580000" />
+      <workItem from="1619773790114" duration="2443000" />
+      <workItem from="1620393577061" duration="10000" />
+      <workItem from="1620978471811" duration="13000" />
+      <workItem from="1624868538061" duration="265000" />
+      <workItem from="1625036182510" duration="1030000" />
+      <workItem from="1625137744244" duration="1471000" />
+      <workItem from="1625140929291" duration="1375000" />
+      <workItem from="1625209284365" duration="472000" />
+      <workItem from="1625641233305" duration="1464000" />
+      <workItem from="1625651740818" duration="599000" />
+      <workItem from="1625655734187" duration="1200000" />
+      <workItem from="1625666720945" duration="133000" />
+      <workItem from="1625670717925" duration="300000" />
+      <workItem from="1625733318121" duration="753000" />
+      <workItem from="1628245167973" duration="42000" />
+      <workItem from="1629814124850" duration="381000" />
+      <workItem from="1630499704229" duration="1091000" />
+      <workItem from="1630571660308" duration="5000" />
+      <workItem from="1631276947919" duration="405000" />
+      <workItem from="1631281135103" duration="451000" />
+      <workItem from="1631602729528" duration="143000" />
+      <workItem from="1632211392096" duration="430000" />
+      <workItem from="1632216629440" duration="737000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

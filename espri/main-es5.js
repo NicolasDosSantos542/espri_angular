@@ -1057,7 +1057,6 @@
         _createClass(MainComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            console.log(this.currentSeason);
           }
         }]);
 
@@ -1203,7 +1202,6 @@
 
           this.cookieValue = this.cookieService.get('Test');
           this.objToSend = this.seasonDescribe[2];
-          console.log(this.cookieValue);
         }
 
         _createClass(HomePageComponent, [{

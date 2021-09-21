@@ -1,6 +1,7 @@
 <div class="header-container">
-<div class="header-content" *ngFor="let value of idValues">
-
-   {{value}}: <app-input-value ></app-input-value>
-</div>
+    <div class="header-content" *ngFor="let i of idValues">
+        {{i}} :
+        <app-input-value [currentSeason]="currentSeason" [value]="i"></app-input-value>
+    </div>
+<div></div>
 </div>
